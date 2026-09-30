@@ -1,0 +1,11 @@
+{
+	id: "475D82CDDA8EC142"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "kubejs:bear_aspect" }
+		{ item: "kubejs:lionfish_aspect" }
+		{ item: "kubejs:fire_beetle_aspect" }
+	]
+	title: "Aspect B"
+}

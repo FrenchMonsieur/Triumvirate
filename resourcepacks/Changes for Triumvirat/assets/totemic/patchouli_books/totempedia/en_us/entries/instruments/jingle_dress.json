@@ -1,0 +1,22 @@
+{
+    "name": "totemic.entry.jingle_dress",
+    "icon": "totemic:jingle_dress",
+    "category": "totemic:instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.jingle_dress0"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "totemic:jingle_dress",
+            "text": "totemic.page.jingle_dress1"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "totemic:iron_bells"
+        }
+    ],
+    "advancement": "totemic:totempedia/wind_chime_unlocked",
+    "sortnum": 4
+}

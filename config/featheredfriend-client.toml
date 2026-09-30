@@ -1,0 +1,27 @@
+
+[client]
+	#Scroll UI font mode.
+	#Valid values: VANILLA, JACQUARD, ALAGARD.
+	scrollUiFontMode = "JACQUARD"
+	#Legacy fallback for old clients/configs.
+	#Deprecated: use scrollUiFontMode instead.
+	useVanillaFontForGothicText = false
+	#Favorite seal stamp key (client-only).
+	#Format: owner|seed|slices|shapeSet (empty means no favorite).
+	favoriteStampKey = ""
+	#Raven Log client-side category visibility/color settings.
+	#Format: categoryId,visible,colorRgb;... (managed automatically by UI).
+	ravenLogViewSettingsRaw = ""
+	#Raven Status GUI X position (pixels from left).
+	#Range: 0 ~ 20000
+	ravenStatusGuiX = 12
+	#Raven Status GUI Y position (pixels from top).
+	#Range: 0 ~ 20000
+	ravenStatusGuiY = 12
+	#Raven Status GUI anchor point.
+	#Valid values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT.
+	ravenStatusGuiAnchor = "TOP_LEFT"
+	#Raven Status GUI visual mode.
+	#Valid values: BADGE_AND_TEXT, RAVEN_ONLY.
+	ravenStatusGuiVisualMode = "BADGE_AND_TEXT"
+

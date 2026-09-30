@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers_rekindled"
+	group: "73C2F2245512DA89"
+	icon: "embers:focal_lens"
+	id: "60C0679CF62B90F3"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Technomancy "
+}

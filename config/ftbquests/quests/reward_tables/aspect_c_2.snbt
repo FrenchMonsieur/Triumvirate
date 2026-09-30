@@ -1,0 +1,11 @@
+{
+	id: "5E4B8BE5347AD5C1"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "kubejs:queen_bee_aspect" }
+		{ item: "kubejs:gnasher_aspect" }
+		{ item: "kubejs:ravager_aspect" }
+	]
+	title: "Aspect C"
+}

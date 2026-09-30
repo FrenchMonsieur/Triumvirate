@@ -1,0 +1,29 @@
+{
+	id: "67F3F8080391F004"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "arkane_domains:fragmented_totem" }
+		{ count: 8, item: "arkane_domains:pestilence_bomb_0" }
+		{
+			item: {
+				Count: 1
+				id: "arkane_domains:mask_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "arkane_domains:rage_potion" }
+		{
+			item: {
+				Count: 1
+				id: "arkane_domains:drum"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Shaman"
+}

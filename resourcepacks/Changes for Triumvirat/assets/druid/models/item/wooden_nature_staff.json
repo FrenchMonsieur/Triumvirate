@@ -1,0 +1,6 @@
+{
+	"parent": "druid:item/staff",
+	"textures": {
+		"layer0": "druid:item/wooden_nature_staff"
+	}
+}

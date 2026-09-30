@@ -1,0 +1,14 @@
+{
+	id: "0D2CB1852962E3DF"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "rootsclassic:oak_bark" }
+		{ count: 8, item: "rootsclassic:spruce_bark" }
+		{ count: 8, item: "rootsclassic:birch_bark" }
+		{ count: 8, item: "rootsclassic:jungle_bark" }
+		{ count: 8, item: "rootsclassic:dark_oak_bark" }
+		{ count: 8, item: "rootsclassic:acacia_bark" }
+	]
+	title: "Bark"
+}

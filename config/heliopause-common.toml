@@ -1,0 +1,22 @@
+
+[season]
+	#Definition of the offset for the start of the season. January 1st(Default) is 0.
+	#Range: -96 ~ 96
+	offset = 0
+
+[lensBarrel]
+	#Definition of the maximum lens barrel length, including mirrors.
+	#Range: 2 ~ 8
+	maxLength = 4
+	#Whether to always display information for barrel-blocks. If false, it will only be displayed when the Shift key is down.
+	alwaysDisplayBlockInfo = false
+	#Whether to always display information for barrel-entity. If false, it will only be displayed when the Shift key is down.
+	alwaysDisplayEntityInfo = true
+
+[visibilityCheck]
+	#Definition of the distance at which to check if any view is obstructed. A large number may cause lag.
+	#Range: 0.7 ~ 8191.0
+	siderostat = 255.0
+	#Range: 0.7 ~ 8191.0
+	concentrator = 255.0
+

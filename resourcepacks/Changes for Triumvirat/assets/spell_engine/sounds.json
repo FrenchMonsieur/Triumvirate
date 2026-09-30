@@ -1,0 +1,99 @@
+{
+  "bind_spell": {
+    "sounds": [
+      "spell_engine:bind_spell"
+    ]
+  },
+  "spellbook_equip": {
+    "sounds": [
+      "spell_engine:spellbook_equip"
+    ]
+  },
+
+  "generic_arcane_casting": {
+    "sounds": [
+      "spell_engine:generic_arcane_casting"
+    ]
+  },
+  "generic_arcane_release": {
+    "sounds": [
+      "spell_engine:generic_arcane_release"
+    ]
+  },
+
+  "generic_fire_casting": {
+    "sounds": [
+      "spell_engine:generic_fire_casting"
+    ]
+  },
+  "generic_fire_release": {
+    "sounds": [
+      "spell_engine:generic_fire_release"
+    ]
+  },
+
+  "generic_frost_casting": {
+    "sounds": [
+      "spell_engine:generic_frost_casting"
+    ]
+  },
+  "generic_frost_release": {
+    "sounds": [
+      "spell_engine:generic_frost_release"
+    ]
+  },
+  "generic_frost_impact": {
+    "sounds": [
+      "spell_engine:generic_frost_impact"
+    ]
+  },
+
+  "generic_healing_casting": {
+    "sounds": [
+      "spell_engine:generic_healing_casting"
+    ]
+  },
+  "generic_healing_release": {
+    "sounds": [
+      "spell_engine:generic_healing_release"
+    ]
+  },
+  "generic_healing_impact_1": {
+    "sounds": [
+      "spell_engine:generic_healing_impact_1"
+    ]
+  },
+  "generic_healing_impact_2": {
+    "sounds": [
+      "spell_engine:generic_healing_impact_2"
+    ]
+  },
+
+  "generic_lightning_casting": {
+    "sounds": [
+      "spell_engine:generic_lightning_casting"
+    ]
+  },
+  "generic_lightning_release": {
+    "sounds": [
+      "spell_engine:generic_lightning_release"
+    ]
+  },
+
+  "generic_soul_casting": {
+    "sounds": [
+      "spell_engine:generic_soul_casting"
+    ]
+  },
+  "generic_soul_release": {
+    "sounds": [
+      "spell_engine:generic_soul_release"
+    ]
+  },
+
+  "generic_wind_charging": {
+    "sounds": [
+      "spell_engine:generic_wind_charging"
+    ]
+  }
+}

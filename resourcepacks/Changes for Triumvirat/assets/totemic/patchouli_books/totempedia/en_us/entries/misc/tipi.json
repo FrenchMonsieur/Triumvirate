@@ -1,0 +1,16 @@
+{
+    "name": "totemic.entry.tipi",
+    "icon": "totemic:tipi",
+    "category": "totemic:misc",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.tipi0"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "totemic:tipi_from_wool",
+            "recipe2": "totemic:tipi_from_hide"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "totemic.entry.twilight_goats",
+    "icon": "kubejs:twilight_goat_hide",
+    "category": "totemic:wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.twilight_goats0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "kubejs:twilight_hunt",
+            "text": "totemic.page.twilight_goats1"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "goety:twilight_goat",
+            "scale": 0.8
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "artifacts:steadfast_spikes"
+        }
+    ],
+     "sortnum": 1
+}

@@ -1,0 +1,16 @@
+{
+    "name": "totemic.entry.fiddle",
+    "icon": "kubejs:fiddle",
+    "category": "totemic:instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.fiddle0"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "kubejs:fiddle"
+        }
+    ],
+    "sortnum": 2
+}

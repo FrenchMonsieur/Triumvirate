@@ -1,0 +1,253 @@
+#随机解除负面效果的食物不能解除的药水效果注册名。
+#Effect registry ids that random-debuff-curing foods cannot remove.
+randomCureEffectBlacklist = []
+#配置文件格式版本。
+#Configuration format version.
+configVersion = "1"
+#是否启用额外饥饿值与饱和度上限系统。
+#Whether to enable the extended hunger and saturation cap system.
+extendedFoodStatsEnabled = true
+#是否随暮色森林进度逐步解锁额外饥饿值与饱和度上限。
+#Whether extra hunger and saturation caps unlock progressively with Twilight Forest advancements.
+extendedFoodProgressiveCapsEnabled = true
+#开启时死亡复活恢复20点饥饿值和原版初始饱和度；关闭时饥饿值恢复至当前上限。本项不改变上限。
+#When enabled, respawn restores 20 hunger and vanilla starting saturation; otherwise hunger is restored to the current cap. This does not change the cap.
+extendedFoodKeepVanillaRespawn = true
+#是否启用额外饥饿值区间的消耗与收益调整。
+#Whether to enable the extra hunger-range consumption and benefit adjustments.
+extendedFoodExtraConsumptionEnabled = true
+#额外饥饿值区间的额外消耗比例，0.5表示增加50%。
+#Additional consumption ratio in the extended hunger range; 0.5 means 50% more.
+#Range: 0.0 ~ 10.0
+extendedFoodExtraConsumptionMultiplier = 0.5
+#额外饥饿值区间的生命恢复、疾跑和挖掘收益比例，0.25表示增加25%。
+#Healing, sprinting, and mining benefit ratio in the extended hunger range; 0.25 means 25% more.
+#Range: 0.0 ~ 10.0
+extendedFoodExtraBenefitMultiplier = 0.25
+#是否启用实验物品250的物品与生物绑定模式。
+#Whether to enable Experiment 250 item-to-entity binding mode.
+experimentBindingModeEnabled = false
+#试验物品250分化使用的工作站；培育始终使用厨锅。
+#Workstation used for Experiment 250 differentiation; cultivation always uses a cooking pot.
+#Allowed Values: CRAFTING_TABLE, CUTTING_BOARD, COOKING_POT
+experimentWorkstation = "CUTTING_BOARD"
+#实验物品250绑定关系，每行格式为 生物注册名=物品注册名。
+#Experiment 250 bindings, one entry per line in the form entity_id=item_id.
+experimentEntityMeatBindings = ["minecraft:pig=minecraft:porkchop", "minecraft:cow=minecraft:beef", "minecraft:chicken=minecraft:chicken", "minecraft:sheep=minecraft:mutton", "minecraft:rabbit=minecraft:rabbit", "minecraft:spider=minecraft:spider_eye", "minecraft:zombie=minecraft:rotten_flesh", "twilightforest:wild_boar=twilight_spark_delight:raw_wild_boar_meat", "twilightforest:bighorn_sheep=twilight_spark_delight:raw_bighorn_mutton", "twilightforest:helmet_crab=twilight_spark_delight:hermit_crab_leg", "twilightforest:fire_beetle=twilight_spark_delight:fire_beetle_leg", "twilightforest:slime_beetle=twilight_spark_delight:slime_beetle_leg", "twilightforest:pinch_beetle=twilight_spark_delight:pinch_beetle_leg", "twilightforest:minotaur=twilightforest:raw_meef", "twilightforest:minoshroom=twilightforest:raw_meef", "twilightforest:hydra=twilightforest:hydra_chop"]
+#试验物品250可分化的生肉及每份活性消耗，格式为 物品注册名:活性值；熟肉默认不参与分化。
+#Raw materials differentiable by Experiment 250 and activity cost per item, in the form item_id:activity_cost; cooked meats are excluded by default.
+experimentMeatActivityCosts = ["minecraft:porkchop:10", "minecraft:beef:10", "minecraft:chicken:4", "minecraft:mutton:8", "minecraft:rabbit:3", "minecraft:rabbit_foot:15", "farmersdelight:ham:50", "twilightforest:raw_venison:10", "twilightforest:raw_meef:30", "twilight_spark_delight:raw_wild_boar_meat:10", "twilight_spark_delight:raw_bighorn_mutton:8", "twilight_spark_delight:hermit_crab_leg:13", "twilight_spark_delight:fire_beetle_leg:25", "twilight_spark_delight:slime_beetle_leg:25", "twilight_spark_delight:pinch_beetle_leg:40"]
+#实验物品250触发濒死保护所需的最低活性值。
+#Minimum activity required for Experiment 250 fatal protection.
+#Range: 0.0 ~ 1.7976931348623157E308
+experimentFatalActivityCost = 20000.0
+#满足增殖条件时，在背包中生成试验物品000或实验原体的成功概率。
+#Chance to produce Experiment 000 or an Experiment Prototype in the inventory when proliferation conditions are met.
+#Range: 0.0 ~ 1.0
+experimentProliferationChance = 0.3
+#试验物品250每提升一级时生肉分化活性消耗的折扣比例；0.06表示每级减少6%。
+#Activity cost discount per Experiment 250 level for raw-meat differentiation; 0.06 means 6% less per level.
+#Range: 0.0 ~ 1.0
+experimentActivityDiscountPerLevel = 0.06
+#每个睡眠周期内实验物品250最多触发濒死保护的次数。
+#Maximum fatal protection triggers per sleep cycle.
+#Range: 1 ~ 100
+experimentFatalTriggersPerSleep = 3
+#BOSS造成的致死伤害是否允许触发试验物品250的濒死保护。
+#Whether fatal damage caused by bosses may activate Experiment 250 fatal protection.
+experimentFatalAllowsBossAttacks = true
+#BOSS攻击触发濒死保护时是否消耗本次睡眠周期的触发次数。
+#Whether fatal protection activated by a boss attack consumes a trigger for the current sleep cycle.
+experimentFatalBossAttacksConsumeTrigger = true
+#这些生物造成的致死伤害触发濒死保护时不会消耗本次睡眠周期的触发次数，每行填写一个生物注册名。
+#Entity registry ids whose fatal attacks activate protection without consuming a trigger for the current sleep cycle, one id per line.
+experimentFatalNonConsumingAttackers = []
+#濒死保护查找试验物品250的位置。
+#Where Fatal Protection searches for Experiment 250.
+#Allowed Values: INVENTORY, OFFHAND, BAUBLES_OR_OFFHAND
+experimentFatalItemLocation = "INVENTORY"
+#缩小效果的基础缩小比例；0.40表示基础缩小40%。
+#Base reduction used by Shrink; 0.40 means a 40% reduction.
+#Range: 0.0 ~ 0.9
+shrinkBaseReduction = 0.4
+#缩小效果每级额外缩小比例；0.10表示每级额外缩小10%。
+#Additional reduction per Shrink level; 0.10 means 10% per level.
+#Range: 0.0 ~ 0.9
+shrinkReductionPerLevel = 0.1
+#扩大效果的基础放大比例；1.00表示基础放大100%。
+#Base scale increase used by Enlarge; 1.00 means a 100% increase.
+#Range: 0.0 ~ 20.0
+enlargeBaseScale = 1.0
+#扩大效果每级额外放大比例；1.00表示每级额外放大100%。
+#Additional scale increase per Enlarge level; 1.00 means 100% per level.
+#Range: 0.0 ~ 20.0
+enlargeScalePerLevel = 1.0
+#冲锋提供的基础移动速度加成，0.10表示10%。
+#Base movement speed bonus from Charge; 0.10 means 10%.
+#Range: 0.0 ~ 10.0
+chargeSpeedBonus = 0.2
+#冲锋提供的跨步高度加成。
+#Step-height bonus from Charge.
+#Range: 0.0 ~ 10.0
+chargeStepHeightBonus = 5.0
+#冲锋按实际移速增幅提供的基础攻击加成上限，0.40表示40%。
+#Base maximum Charge attack bonus based on movement speed; 0.40 means 40%.
+#Range: 0.0 ~ 10.0
+chargeMaxAttackBonus = 0.5
+#共生提供的基础减伤，0.10表示10%。
+#Base damage reduction from Symbiosis; 0.10 means 10%.
+#Range: 0.0 ~ 0.95
+symbiosisDamageReduction = 0.1
+#共生每级额外减伤，0.10表示每级10%。
+#Additional damage reduction per Symbiosis level; 0.10 means 10% per level.
+#Range: 0.0 ~ 0.95
+symbiosisDamageReductionPerLevel = 0.1
+#玩家共生每刻消耗的饥饿值，受共生等级影响。
+#Hunger drain per tick for player Symbiosis, affected by its level.
+#Range: 0.0 ~ 10.0
+symbiosisHungerDrainPerTick = 0.0025
+#非玩家生物共生的治疗间隔（刻）。
+#Healing interval in ticks for non-player Symbiosis.
+#Range: 1 ~ 72000
+symbiosisHealInterval = 100
+#共生每次为非玩家生物恢复的生命值。
+#Health restored to a non-player entity per Symbiosis healing interval.
+#Range: 0.0 ~ 1000.0
+symbiosisEntityHealAmount = 1.0
+#悲恸每级造成的额外伤害，0.10表示每级10%。
+#Additional damage per Grief level; 0.10 means 10% per level.
+#Range: 0.0 ~ 10.0
+griefDamageBonusPerLevel = 0.1
+#食用双冠冰淇淋后不获得冻结效果的概率。
+#Chance for Double-Crown Ice Cream to skip the Frosted effect after being eaten.
+#Range: 0.0 ~ 1.0
+doubleCrownIceCreamNoFrostedChance = 0.1
+#食用双冠冰淇淋后获得十分钟冻结效果的概率。
+#Chance for Double-Crown Ice Cream to grant ten minutes of Frosted after being eaten.
+#Range: 0.0 ~ 1.0
+doubleCrownIceCreamLongFrostedChance = 0.1
+#在砧板上用铁砧处理寄居蟹时，额外获得三个生寄居蟹腿的概率。
+#Chance to obtain three extra raw Helmet Crab Legs when processing a Helmet Crab with an anvil on a cutting board.
+#Range: 0.0 ~ 1.0
+helmetCrabCuttingExtraLegsChance = 0.75
+#在砧板上用铁砧处理寄居蟹时，获得五个装甲碎片堆的概率。
+#Chance to obtain five Armor Shard Clusters when processing a Helmet Crab with an anvil on a cutting board.
+#Range: 0.0 ~ 1.0
+helmetCrabCuttingArmorChance = 0.25
+#荣耀坩埚的最大液体容量（毫桶），非整桶数值向下取整到1000的倍数。
+#Maximum Glory Crucible capacity in millibuckets; rounded down to a multiple of 1000.
+#Range: 1000 ~ 64000
+gloryCrucibleCapacityMb = 2000
+#荣耀坩埚每次整锅酿造需要的游戏刻数，200刻等于10秒。
+#Ticks required per Glory Crucible batch conversion; 200 ticks equals 10 seconds.
+#Range: 1 ~ 72000
+gloryCrucibleBrewingTimeTicks = 200
+#使用转化粉转化兔子时，将其转化为特殊杀手兔的概率。
+#Chance for Transformation Powder to turn a rabbit into a special killer rabbit.
+#Range: 0.0 ~ 1.0
+rabbitPocketWatchKillerRabbitChance = 0.1
+#未腌制完成的蕨菜罐每次随机刻增加熟成进度的基础概率。
+#Base chance for an unripe Pickled Bracken Jar to gain ripening progress per random tick.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarBaseRipeningChance = 0.5
+#上方存在遮蔽物时增加的熟成概率。
+#Ripening chance bonus when a shade block is above the jar.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarShadeBonus = 0.2
+#上方存在树叶遮蔽物时增加的熟成概率。
+#Ripening chance bonus when leaves provide the shade above the jar.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarLeafShadeBonus = 0.3
+#遮蔽物周围没有其他杂物时增加的熟成概率。
+#Ripening chance bonus when the area around the shade is free of clutter.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarCleanAreaBonus = 0.15
+#附近存在魔法原木核心时增加的熟成概率。
+#Ripening chance bonus when a Magic Log Core is nearby.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarMagicLogBonus = 0.5
+#附近存在迷宫菌落时增加的熟成概率。
+#Ripening chance bonus when a Labyrinth Mushroom Colony is nearby.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarMushroomColonyBonus = 0.1
+#附近使用过孔雀羽扇时增加的熟成概率。
+#Ripening chance bonus after a Peacock Feather Fan was used nearby.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarPeacockFanBonus = 0.3
+#位于中空矿山、蘑菇城堡、迷宫、骑士要塞或谜题羊树丛范围内时增加的熟成概率。
+#Ripening chance bonus within Hollow Hills, Mushroom Towers, Labyrinths, Knight Strongholds, or Quest Groves.
+#Range: 0.0 ~ 100.0
+pickledBrackenJarStructureBonus = 0.2
+#巨型厨锅一次最多同时处理的配方份数。
+#Maximum number of recipe batches a Giant Cooking Pot can process at once.
+#Range: 1 ~ 64
+giantCookingPotMaxBatches = 8
+#巨人厨锅一次最多同时处理的配方份数。
+#Maximum number of recipe batches a Giant's Cooking Pot can process at once.
+#Range: 1 ~ 64
+giantsCookingPotMaxBatches = 16
+#巨人炉灶一次最多同时处理的食材份数；实际数量仍受可用槽位和原料数量限制。
+#Maximum portions the Giant's Stove can process at once; actual processing is still limited by available slots and ingredients.
+#Range: 1 ~ 16
+giantsStoveMaxPortions = 16
+#武装巨人生成时成为平底锅变种的概率。
+#Chance for an Armored Giant to spawn as the Skillet variant.
+#Range: 0.0 ~ 1.0
+armoredGiantSkilletVariantChance = 0.2
+#平底锅变种武装巨人死亡时掉落巨人厨具套装的概率。
+#Chance for the Skillet variant Armored Giant to drop the Giant kitchen set on death.
+#Range: 0.0 ~ 1.0
+armoredGiantKitchenSetDropChance = 0.25
+#本模组可分食食物触发分食成就所需的不同食客人数（腌蕨菜罐除外）。
+#Number of distinct diners required for this mod's feast sharing advancements, excluding Pickled Bracken Jar.
+#Range: 1 ~ 64
+twilightCheeseFondueDinerCount = 3
+#冲锋每级额外提供的移动速度加成，0.10表示每级10%。
+#Additional movement speed bonus per Charge level; 0.10 means 10% per level.
+#Range: 0.0 ~ 10.0
+chargeSpeedBonusPerLevel = 0.1
+#冲锋攻击加成上限的每级增量，0.20表示每级20%。
+#Per-level increase to the maximum Charge attack bonus; 0.20 means 20% per level.
+#Range: 0.0 ~ 10.0
+chargeMaxAttackBonusPerLevel = 0.2
+#1级试验物品250的活性值上限；可独立设置非负小数，0表示不能储存活性。降低上限会截断超过上限的已有活性，提高上限不会自动补充活性。
+#Activity capacity of level 1 Experiment 250; independently configurable as a non-negative decimal. 0 prevents activity storage. Lowering the capacity clamps existing excess activity; raising it does not refill activity.
+#Range: 0.0 ~ 1.7976931348623157E308
+experiment250Level1Capacity = 250.0
+#2级试验物品250的活性值上限；可独立设置非负小数，0表示不能储存活性。降低上限会截断超过上限的已有活性，提高上限不会自动补充活性。
+#Activity capacity of level 2 Experiment 250; independently configurable as a non-negative decimal. 0 prevents activity storage. Lowering the capacity clamps existing excess activity; raising it does not refill activity.
+#Range: 0.0 ~ 1.7976931348623157E308
+experiment250Level2Capacity = 750.0
+#3级试验物品250的活性值上限；可独立设置非负小数，0表示不能储存活性。降低上限会截断超过上限的已有活性，提高上限不会自动补充活性。
+#Activity capacity of level 3 Experiment 250; independently configurable as a non-negative decimal. 0 prevents activity storage. Lowering the capacity clamps existing excess activity; raising it does not refill activity.
+#Range: 0.0 ~ 1.7976931348623157E308
+experiment250Level3Capacity = 2250.0
+#4级试验物品250的活性值上限；可独立设置非负小数，0表示不能储存活性。降低上限会截断超过上限的已有活性，提高上限不会自动补充活性。
+#Activity capacity of level 4 Experiment 250; independently configurable as a non-negative decimal. 0 prevents activity storage. Lowering the capacity clamps existing excess activity; raising it does not refill activity.
+#Range: 0.0 ~ 1.7976931348623157E308
+experiment250Level4Capacity = 6750.0
+#5级试验物品250的活性值上限；可独立设置非负小数，0表示不能储存活性。降低上限会截断超过上限的已有活性，提高上限不会自动补充活性。
+#Activity capacity of level 5 Experiment 250; independently configurable as a non-negative decimal. 0 prevents activity storage. Lowering the capacity clamps existing excess activity; raising it does not refill activity.
+#Range: 0.0 ~ 1.7976931348623157E308
+experiment250Level5Capacity = 20250.0
+#6级试验物品250的活性值上限；可独立设置非负小数，0表示不能储存活性。降低上限会截断超过上限的已有活性，提高上限不会自动补充活性。
+#Activity capacity of level 6 Experiment 250; independently configurable as a non-negative decimal. 0 prevents activity storage. Lowering the capacity clamps existing excess activity; raising it does not refill activity.
+#Range: 0.0 ~ 1.7976931348623157E308
+experiment250Level6Capacity = 60750.0
+#手持吸血权杖从未受缓慢效果影响的目标成功吸收一次时，向另一只手中的试验物品250补充的活性值；设为0时不补充，保留权杖原本的恢复效果。
+#Activity added to Experiment 250 in the other hand per successful handheld Lifedrain Scepter drain from a target without Slowness; 0 disables charging and preserves the scepter's original recovery.
+#Range: 0.0 ~ 1.7976931348623157E308
+experimentScepterActivityGain = 1.0
+#手持吸血权杖从已受缓慢效果影响的目标成功吸收一次时，向另一只手中的试验物品250补充的活性值；这是本次补充的总量，不与普通吸收量叠加，设为0时保留权杖原本的恢复效果。
+#Total activity added to Experiment 250 in the other hand per successful handheld Lifedrain Scepter drain from a target already affected by Slowness; replaces the normal gain, and 0 preserves the scepter's original recovery.
+#Range: 0.0 ~ 1.7976931348623157E308
+experimentScepterSlowedActivityGain = 3.0
+#战利品宝座上的吸血权杖从未受缓慢效果影响的目标成功吸收一次时，向相连宝座上的试验物品250补充的活性值；设为0仅停止补充，不改变伤害和吸收频率。
+#Activity added to Experiment 250 on a connected Trophy Pedestal per successful pedestal drain from a target without Slowness; 0 disables charging without changing damage or drain frequency.
+#Range: 0.0 ~ 1.7976931348623157E308
+experimentPedestalActivityGain = 0.5
+#战利品宝座上的吸血权杖从已受缓慢效果影响的目标成功吸收一次时，向相连宝座上的试验物品250补充的活性值；这是本次补充的总量，不与普通吸收量叠加，设为0仅停止补充。
+#Total activity added to Experiment 250 on a connected Trophy Pedestal per successful pedestal drain from a target already affected by Slowness; replaces the normal gain, and 0 only disables charging.
+#Range: 0.0 ~ 1.7976931348623157E308
+experimentPedestalSlowedActivityGain = 1.5
+

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "golemancy"
+	group: "73C2F2245512DA89"
+	icon: "golemoverhaul:clay_golem_statue"
+	id: "27D7163E5932AC9D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Golemancy"
+}

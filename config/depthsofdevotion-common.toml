@@ -1,0 +1,84 @@
+
+[devotion]
+	#Range: 1.0 ~ 100000.0
+	maxDevotion = 100.0
+	enablePvpDevotion = false
+	cultistsProtectEachOther = true
+	ownedStatuesAttackPlayers = false
+	chatCorruptionEnabled = true
+	pledgeItemId = "netherman:crimson_honey_bottle"
+	#Range: 20 ~ 72000
+	worshipCooldownTicks = 120
+	#Range: 20 ~ 168000
+	betrayerForgivenessTicks = 12000
+	#Range: 0.0 ~ 100.0
+	worshipGain = 0.1
+	#Range: 0.0 ~ 100.0
+	pledgeGain = 0.5
+	#Range: 0.0 ~ 100.0
+	playerKillGain = 1.0
+	#Range: 0.0 ~ 100.0
+	cultistKillLoss = 2.0
+	#Range: 0.0 ~ 100.0
+	believerKillLoss = 1.0
+	#Range: 0.0 ~ 100.0
+	prisonerCampGain = 0.5
+	#Range: 0.0 ~ 100.0
+	prisonerAssignDevotion = 0.5
+	#Range: 0 ~ 100000
+	believerRecruitDevotion = 25
+	#Range: 0 ~ 100
+	followerLimitInitiate = 2
+	#Range: 0 ~ 100
+	followerLimitApostle = 4
+	#Range: 0 ~ 100
+	followerLimitChosen = 6
+
+[abilities]
+	#Range: 20 ~ 72000
+	azazelWindCooldownTicks = 360
+	#Range: 20 ~ 72000
+	unusedWheelDashCooldownTicks = 360
+	#Range: 20 ~ 72000
+	azazelArrowsCooldownTicks = 700
+	#Range: 20 ~ 72000
+	unusedPullAttackCooldownTicks = 700
+	#Range: 20 ~ 72000
+	unusedPrayerWardCooldownTicks = 1200
+	#Range: 20 ~ 72000
+	midasPrisonCooldownTicks = 1800
+	#Range: 20 ~ 72000
+	prisonCageCooldownTicks = 1800
+	#Range: 20 ~ 72000
+	sectPriestCooldownTicks = 2400
+	#Range: 20 ~ 72000
+	azazelFractureCooldownTicks = 6000
+	#Range: 0.0 ~ 100.0
+	azazelWindDamage = 4.0
+	#Range: 0.0 ~ 100.0
+	unusedWheelDashDamage = 5.0
+	#Range: 0.0 ~ 100.0
+	azazelArrowsDamage = 3.0
+	#Range: 0.0 ~ 100.0
+	unusedPullAttackDamage = 4.0
+	#Range: 0.0 ~ 100.0
+	midasRingDamage = 3.0
+	#Range: 0.0 ~ 100.0
+	midasPrisonDamage = 3.0
+	#Range: 0.0 ~ 100.0
+	azazelFractureDamage = 8.0
+	#Range: 20 ~ 72000
+	sectPriestLifetimeTicks = 2400
+	#Range: 20 ~ 72000
+	midasPrisonLifetimeTicks = 200
+
+[sect_camp]
+	#Range: 1 ~ 64
+	campRadius = 8
+	#Range: 1 ~ 128
+	campMaxPrisoners = 6
+	#Range: 200 ~ 72000
+	campGenerateTicks = 12000
+	#Range: 0.0 ~ 1.0
+	campRareRewardChance = 0.08
+

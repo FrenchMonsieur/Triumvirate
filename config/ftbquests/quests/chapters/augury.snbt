@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "augury"
+	group: "4C3F8330F95D1BC7"
+	icon: "naturesaura:eye"
+	id: "73AA007C7DD451A3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"01C0B922FB75B938"
+				"1ECC87CF1E485A05"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Greetings &9Seer&r,"]
+			hide_until_deps_complete: true
+			id: "29935EC43A9A9762"
+			tasks: [{
+				id: "3DFD4FE71BD41F6D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			title: "Ledger of Seers"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29935EC43A9A9762"]
+			id: "0DF5655E424DF0E6"
+			tasks: [{
+				biome: "twilightforest:firefly_forest"
+				icon: "twilightforest:hollow_oak_sapling"
+				id: "1AE72A2BBBB48BA7"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Augury"
+}

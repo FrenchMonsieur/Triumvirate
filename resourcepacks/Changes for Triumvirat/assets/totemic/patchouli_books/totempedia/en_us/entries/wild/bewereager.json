@@ -1,0 +1,27 @@
+{
+    "name": "totemic.entry.bewereager",
+    "icon": "species:werefang",
+    "category": "totemic:wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.bewereager0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "kubejs:blood_hunt",
+            "text": "totemic.page.bewereager1"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "species:bewereager",
+            "scale": 0.8
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "species:crankbow",
+            "recipe2": "berserker_rpg:iron_berserker_axe"
+        }
+    ],
+     "sortnum": 2
+}

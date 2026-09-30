@@ -1,0 +1,25 @@
+{
+    "name": "totemic.entry.baykok_summon",
+    "icon": "minecraft:air",
+    "category": "totemic:ceremonies",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.baykok_summon0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "kubejs:lakota",
+            "text": "totemic.page.baykok_summon2"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "arkane_domains:dark_shaman"
+        }
+    ],
+    "extra_recipe_mappings": {
+        "totemic:baykok_bow": 0
+    },
+    "advancement": "totemic:totempedia/eagle_bone_whistle_unlocked",
+    "sortnum": 13
+}

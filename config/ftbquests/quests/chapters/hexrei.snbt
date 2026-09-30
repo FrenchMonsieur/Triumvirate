@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexrei"
+	group: "4C3F8330F95D1BC7"
+	icon: {
+		Count: 1
+		id: "hexerei:witch_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "49F9642C138C910C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1ECC87CF1E485A05"
+				"01C0B922FB75B938"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Salutations &1Witch&r,"]
+			hide_until_deps_complete: true
+			id: "0D40837E816AE37B"
+			subtitle: "Cause you need one"
+			tasks: [{
+				id: "59DE8B1BAB33E265"
+				item: {
+					Count: 1
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Grimoire of Witches"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D40837E816AE37B"]
+			id: "6F9B44B9FF9ED3CC"
+			tasks: [{
+				biome: "twilightforest:dense_mushroom_forest"
+				icon: "farmersdelight:red_mushroom_colony"
+				id: "1C6F150229B619B4"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Witchery"
+}

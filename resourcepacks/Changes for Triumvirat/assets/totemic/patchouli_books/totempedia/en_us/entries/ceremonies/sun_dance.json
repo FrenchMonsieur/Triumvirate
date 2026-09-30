@@ -1,0 +1,18 @@
+{
+    "name": "totemic.entry.sun_dance",
+    "icon": "minecraft:air",
+    "category": "totemic:ceremonies",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.sun_dance0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "totemic:sun_dance",
+            "text": "totemic.page.sun_dance1"
+        }
+    ],
+    "advancement": "totemic:totempedia/eagle_bone_whistle_unlocked",
+    "sortnum": 11
+}

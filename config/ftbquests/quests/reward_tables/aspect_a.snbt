@@ -1,0 +1,11 @@
+{
+	id: "5FACEB0A765A056F"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "kubejs:cat_aspect" }
+		{ item: "kubejs:cave_spider_aspect" }
+		{ item: "kubejs:bee_aspect" }
+	]
+	title: "Aspect A"
+}

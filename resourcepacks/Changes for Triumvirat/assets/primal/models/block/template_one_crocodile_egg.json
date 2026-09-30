@@ -1,0 +1,23 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench - Natsirt",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "primal:block/crocodile_egg_particle"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [6, 6, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [5, 9.5, 7, 12.5], "texture": "#egg"},
+				"east": {"uv": [7, 9.5, 9, 12.5], "texture": "#egg"},
+				"south": {"uv": [9, 9.5, 11, 12.5], "texture": "#egg"},
+				"west": {"uv": [11, 5, 13, 8], "texture": "#egg"},
+				"up": {"uv": [13, 10, 11, 8], "texture": "#egg"},
+				"down": {"uv": [13, 10, 11, 12], "texture": "#egg"}
+			}
+		}
+	]
+}

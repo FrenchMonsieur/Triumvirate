@@ -1,0 +1,72 @@
+
+#Terrain and world profile tuning. Values are staged for progressive wiring across later phases.
+[terrain]
+	#Target spacing between broad island fields in blocks.
+	#Range: 128 ~ 4096
+	islandSpacing = 512
+	#Minimum target island radius in blocks for future terrain tuning.
+	#Range: 0 ~ 512
+	islandMinRadius = 64
+	#Maximum target island radius in blocks for future terrain tuning.
+	#Range: 0 ~ 1024
+	islandMaxRadius = 160
+	#Bias applied to island interior elevation in future terrain tuning.
+	#Range: -64 ~ 128
+	islandHeightBias = 12
+	#Chance that an island field becomes a grouped/archipelago field.
+	#Range: 0.0 ~ 1.0
+	islandGroupChance = 0.35
+	#Minimum island count when group generation is used.
+	#Range: 1 ~ 16
+	islandGroupMinCount = 2
+	#Maximum island count when group generation is used.
+	#Range: 1 ~ 32
+	islandGroupMaxCount = 5
+	#Relative smoothing strength for coastlines.
+	#Range: 0.0 ~ 2.0
+	coastlineSmoothing = 0.72
+	#Target beach transition width in blocks.
+	#Range: 0 ~ 64
+	beachWidth = 8
+	#Target underwater shelf width in blocks.
+	#Range: 0 ~ 128
+	underwaterShelfWidth = 24
+	#Configured ocean surface level for later terrain/profile wiring.
+	#Range: 32 ~ 160
+	seaLevel = 63
+	#Target default ocean floor depth below sea level in blocks.
+	#Range: 8 ~ 192
+	oceanFloorDepth = 48
+	#Multiplier applied to deep-ocean depth shaping.
+	#Range: 0.25 ~ 8.0
+	deepOceanDepthMultiplier = 1.65
+	#Maximum search radius in blocks from world origin when finding an island for the initial spawn point.
+	#Larger values increase the chance of finding an island but may briefly delay world creation.
+	#Range: 256 ~ 8192
+	spawnSearchRadius = 2048
+
+#Allowlist/blocklist overrides layered on top of datapack tags.
+[compatibility]
+	#Additional biome ids that should be treated as island-capable.
+	biomeAllowlist = []
+	#Biome ids that should never be treated as island-capable.
+	biomeBlacklist = []
+	#Additional land structure ids that should use OceanCore structure suitability checks.
+	structureAllowlist = []
+	#Land structure ids that should be blocked from OceanCore suitability handling.
+	structureBlacklist = []
+
+#Dedicated server defaults.
+[server]
+	#When true, dedicated servers that have not explicitly set a level-type in server.properties
+	#will automatically use the Oceanic Islands world type for new worlds.
+	#Set to false if you want servers to use the vanilla default unless manually configured.
+	defaultOceanicWorldType = true
+
+#Development and pack-author debugging controls.
+[debug]
+	#Enable extra bootstrap logging while the worldgen pipeline is under active development.
+	debugLogging = false
+	#Register server debug commands for terrain and structure inspection.
+	enableDebugCommands = false
+

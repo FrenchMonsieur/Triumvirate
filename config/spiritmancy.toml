@@ -1,0 +1,37 @@
+
+[blocks]
+	#How much souls should the soul altar drain per tick?
+	#Range: 0.0 ~ 1000000.0
+	soulAltarSoulDrain = 0.1
+	#How much souls does the divination table cost to convert an item to study progress?
+	#Range: 0.0 ~ 1000000.0
+	divinationTableSoulCost = 2.0
+
+[items]
+	#How much should the souls obtained from killing a mob be multiplied by when using a soulmetal dagger?
+	#Range: 0.0 ~ 1000000.0
+	soulmetalDaggerSoulMultiplier = 1.0
+	#How much should the souls obtained from killing a mob be multiplied by when using a purgatory dagger?
+	#Range: 0.0 ~ 1000000.0
+	purgatoryDaggerSoulMultiplier = 2.0
+	#How much should the souls obtained from killing a mob be multiplied by when a soul orb is equipped?
+	#Range: 0.0 ~ 1000000.0
+	soulOrbSoulMultiplier = 1.0
+	#How much souls should the soul barrier cost to protect you from damage?
+	#Range: 0.0 ~ 1000000.0
+	soulBarrierSoulCost = 1.0
+	#What should the damage be multiplied by when the soul barrier protects you from damage?
+	#Range: 0.0 ~ 1.0
+	soulBarrierDamageMultiplier = 0.9
+	#How much souls should the soul booster cost to double jump?
+	#Range: 0.0 ~ 1000000.0
+	soulBoosterSoulCost = 2.0
+	#How much health should be given per soul with the soul transformer equipped?
+	#Range: 0.0 ~ 1000000.0
+	soulTransformerHealthPerSoul = 0.25
+
+[other]
+	#How much health is required per soul when stealing a mobs soul?
+	#Range: 1.0 ~ 1000000.0
+	baseHealthPerSoul = 10.0
+

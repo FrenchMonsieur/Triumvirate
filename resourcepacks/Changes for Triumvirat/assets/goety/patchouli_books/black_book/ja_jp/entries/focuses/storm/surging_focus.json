@@ -1,0 +1,19 @@
+{
+  "name": "サージングのフォーカス",
+  "icon": "goety:surging_focus",
+  "category": "goety:focuses/storm",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "この呪文は、電撃球の大きさを犠牲にする代わりに、術者がチャージした後、術者が見ている標的に向かって弧を描く小さな球体を素早く発射できるようにする。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/surging_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/storm_staff)嵐の杖$()で唱えると、ボルトがけいれん効果を引き起こす可能性が高くなり、小さな電撃の連鎖が発生します。"
+    }
+  ]
+}

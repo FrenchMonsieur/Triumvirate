@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artificers_armory"
+	group: "73C2F2245512DA89"
+	icon: {
+		Count: 1
+		id: "artificers_armory:oculus_netherite"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3001B6ECD5C685B5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Artificery"
+}

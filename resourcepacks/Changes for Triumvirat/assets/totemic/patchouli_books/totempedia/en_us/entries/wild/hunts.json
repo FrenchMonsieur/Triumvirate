@@ -1,0 +1,17 @@
+{
+    "name": "totemic.entry.hunts",
+    "icon": "spearsmod:stone_spear",
+    "category": "totemic:wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.hunts0"
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["triumvirate:textures/gui/idol_example.png"],
+            "text": "totemic.page.hunts1"
+        }
+    ],
+    "sortnum": 0
+}

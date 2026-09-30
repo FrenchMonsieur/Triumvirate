@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon"
+	group: "72BB211F93C54353"
+	icon: "eidolon:shadow_gem"
+	id: "256377F7AE0B9537"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Eldritch Invocation"
+}

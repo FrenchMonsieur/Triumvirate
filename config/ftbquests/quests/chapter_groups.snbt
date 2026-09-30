@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "4C3F8330F95D1BC7", title: "Herbalists" }
+		{ id: "72BB211F93C54353", title: "Warlocks" }
+		{ id: "73C2F2245512DA89", title: "Arcanists" }
+	]
+}

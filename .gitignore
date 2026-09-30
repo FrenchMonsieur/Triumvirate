@@ -1,0 +1,40 @@
+# Mondes et données générées en jeu
+saves/
+logs/
+crash-reports/
+screenshots/
+local/
+journeymap/
+.mixin.out/
+kubejs/exported/
+*.log
+
+# Réglages perso de chaque joueur
+options.txt
+optionsof.txt
+servers.dat
+usercache.json
+usernamecache.json
+
+# Fichiers propres à l'appli CurseForge
+minecraftinstance.json
+.curseclient
+
+# Caches générés par des mods
+modernfix/
+mods/.connector/
+fieldguide_cache/
+particular_cache/
+moddata/
+panoramas/
+
+# Fichiers perso / locaux
+command_history.txt
+servers.dat_old
+servers.essential.dat
+supportercache.json
+rhino.local.properties
+patchouli_data.json
+
+# Mods : décommente si tu ne veux pas versionner les .jar
+# mods/*.jar

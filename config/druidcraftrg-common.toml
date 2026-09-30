@@ -1,0 +1,9 @@
+
+[droprate]
+	#Drop Rate Config
+	#Rate of hemp seed drops from grass blocks.
+	#Range: 0 ~ 100
+	hemp_seed_rate = 8
+	#Whether to have seeds from this mod drop from grass at all.
+	drop_seeds = true
+

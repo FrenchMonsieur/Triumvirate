@@ -1,0 +1,18 @@
+{
+    "name": "totemic.entry.drought",
+    "icon": "minecraft:air",
+    "category": "totemic:ceremonies",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.drought0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "totemic:drought",
+            "text": "totemic.page.drought1"
+        }
+    ],
+    "advancement": "totemic:totempedia/rattle_unlocked",
+    "sortnum": 7
+}

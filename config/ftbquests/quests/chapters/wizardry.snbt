@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wizardry"
+	group: "73C2F2245512DA89"
+	icon: {
+		Count: 1
+		id: "wizards_reborn:masterful_earth_crystal"
+		tag: {
+			"wizards_reborn:absorption": 1
+			"wizards_reborn:balance": 3
+			"wizards_reborn:focus": 0
+			"wizards_reborn:resonance": 2
+		}
+	}
+	id: "0AEADDC09EEBF37A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Wizardry"
+}

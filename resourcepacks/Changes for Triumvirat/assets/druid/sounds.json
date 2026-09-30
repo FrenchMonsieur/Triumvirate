@@ -1,0 +1,32 @@
+{
+  "nature_cast": {
+    "sounds": [
+      "druid:nature_cast"
+    ]
+  },
+  "nature_cast_loop": {
+    "sounds": [
+      "druid:nature_cast_loop"
+    ]
+  },
+  "nature_impact": {
+    "sounds": [
+      "druid:nature_impact"
+    ]
+  },
+  "roots_cast": {
+    "sounds": [
+      "druid:roots_cast"
+    ]
+  },
+  "roots_cast_loop": {
+    "sounds": [
+      "druid:roots_cast_loop"
+    ]
+  },
+  "roots_impact": {
+    "sounds": [
+      "druid:roots_impact"
+    ]
+  }
+}

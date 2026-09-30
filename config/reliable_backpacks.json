@@ -1,0 +1,6 @@
+{
+  "enable_curios_integration": true,
+  "enable_trinkets_integration": true,
+  "enable_entity_stealing": true,
+  "backpack_rows": 3
+}

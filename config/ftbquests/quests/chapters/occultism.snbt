@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "72BB211F93C54353"
+	icon: "occultism:ritual_dummy/summon_demonic_wife"
+	id: "619730FD9D1E018B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Occultism"
+}

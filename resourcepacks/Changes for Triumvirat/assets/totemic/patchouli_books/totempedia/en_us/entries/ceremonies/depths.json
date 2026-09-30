@@ -1,0 +1,17 @@
+{
+    "name": "totemic.entry.depths",
+    "icon": "minecraft:air",
+    "category": "totemic:ceremonies",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.depths0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "totemic:depths",
+            "text": "totemic.page.depths1"
+        }
+    ],
+    "sortnum": 1
+}

@@ -1,0 +1,875 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "druidic_arts"
+	group: "4C3F8330F95D1BC7"
+	icon: "rootsclassic:runic_tablet"
+	id: "1ABBCF481019AB18"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Hello &aDruid&r, this is the &eRunic Tablet&r the stone that will teach you everything there is to know about &2Rituals&r, &8Standing Stones&r and &aThe Druidic Arts.&r"]
+			icon: "rootsclassic:runic_tablet"
+			id: "6C3611D710B7A904"
+			rewards: [{
+				id: "07883407965C16A2"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "hexagon"
+			subtitle: "Cause you need one"
+			tasks: [{
+				id: "713C45B97E7C5B12"
+				item: "rootsclassic:runic_tablet"
+				type: "item"
+			}]
+			title: "Tablet of Druids"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C3611D710B7A904"]
+			icon: "twilightforest:twilight_oak_sapling"
+			id: "1D4DFA9A3603E896"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58455F335F137937"
+					table_id: 949328806951445471L
+					type: "choice"
+				}
+				{
+					id: "07A6E10D5EE20D5C"
+					type: "xp"
+					xp: 2
+				}
+			]
+			subtitle: "Maybe you'll have enough space here"
+			tasks: [
+				{
+					id: "5FE005C6239C0AFB"
+					item: {
+						Count: 1
+						id: "rootsclassic:bark_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D87679F269D3AE6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rootsclassic:oak_bark"
+								}
+								{
+									Count: 1b
+									id: "rootsclassic:spruce_bark"
+								}
+								{
+									Count: 1b
+									id: "rootsclassic:birch_bark"
+								}
+								{
+									Count: 1b
+									id: "rootsclassic:jungle_bark"
+								}
+								{
+									Count: 1b
+									id: "rootsclassic:acacia_bark"
+								}
+								{
+									Count: 1b
+									id: "rootsclassic:dark_oak_bark"
+								}
+							]
+						}
+					}
+					title: "1 of Any Bark"
+					type: "item"
+				}
+				{
+					biome: "twilightforest:dense_forest"
+					icon: "twilightforest:twilight_oak_sapling"
+					id: "512539CFA4711745"
+					title: "Visit The Dense Forest"
+					type: "biome"
+				}
+			]
+			title: "First Steps as a Druid"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D4DFA9A3603E896"]
+			id: "25549EAB34570226"
+			rewards: [
+				{
+					count: 4
+					id: "1D8F99D418F63C7D"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+				{
+					id: "431D888E28585A4C"
+					type: "xp"
+					xp: 2
+				}
+			]
+			subtitle: "See what I did there ?"
+			tasks: [{
+				count: 2L
+				id: "57B29A8BE4ABB475"
+				item: { Count: 2, id: "rootsclassic:old_root" }
+				type: "item"
+			}]
+			title: "Classic Roots"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D4DFA9A3603E896"]
+			id: "42712FF4AC1239FF"
+			rewards: [
+				{
+					count: 2
+					id: "5EC9851A058CD372"
+					item: "rootsclassic:blackcurrant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "776BC422360EE560"
+					item: "rootsclassic:redcurrant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "715A9D7107237224"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					id: "0658FAED71EE75B2"
+					type: "xp"
+					xp: 2
+				}
+			]
+			subtitle: "\"Blue, Yellow, Pink. Whatever man, just keep bringing me that.\" -A relaxed man"
+			tasks: [{
+				icon: "rootsclassic:redcurrant"
+				id: "7F242E18DD8C2CAA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rootsclassic:nightshade"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:blackcurrant"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:redcurrant"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:whitecurrant"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:elderberry"
+							}
+						]
+					}
+				}
+				title: "One of Any Berries"
+				type: "item"
+			}]
+			title: "Ripe Berries"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D4DFA9A3603E896"]
+			id: "5B8810899EDF3ACB"
+			rewards: [
+				{
+					count: 4
+					id: "06E20A0FFA3D34B7"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+				{
+					id: "19AEE94E295E2CFD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0C723F02C0560610"
+				item: "rootsclassic:verdant_sprig"
+				type: "item"
+			}]
+			title: "Nature's Roots"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5B8810899EDF3ACB"
+				"42712FF4AC1239FF"
+			]
+			id: "479501665DE36C5D"
+			rewards: [{
+				id: "4F2721CAF24E9814"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 2L
+				id: "4EA1BD1EE188F2E0"
+				item: { Count: 2, id: "rootsclassic:healing_poultice" }
+				type: "item"
+			}]
+			title: "Druidic Medicine"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B8810899EDF3ACB"]
+			icon: "rootsclassic:imbuer"
+			id: "11F18876EDC4767A"
+			rewards: [{
+				id: "09DB0F21B8700029"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "145C0F65A348560E"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+				{
+					id: "0A2414A7EE47C81F"
+					item: "rootsclassic:imbuer"
+					type: "item"
+				}
+				{
+					id: "007DF3A791C05335"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			title: "Yet another Mortar and Pestle"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["479501665DE36C5D"]
+			id: "0D7665F00EB48653"
+			rewards: [{
+				id: "2107526F9E720E79"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "78D6CEE02937577A"
+				item: { Count: 2, id: "rootsclassic:growth_powder" }
+				type: "item"
+			}]
+			title: "Plant Food"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["25549EAB34570226"]
+			id: "4582BB08CBB685CB"
+			rewards: [{
+				id: "69F1F0CCD2FFDCCE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "64D8BC3CC26A59A3"
+				item: "rootsclassic:rooty_stew"
+				type: "item"
+			}]
+			title: "Tuh'u"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11F18876EDC4767A"]
+			icon: "rootsclassic:staff"
+			id: "05C68A3D9E6B6F70"
+			tasks: [
+				{
+					id: "605A55E36A77036A"
+					item: "rootsclassic:spell_powder"
+					type: "item"
+				}
+				{
+					id: "11D2B5DE745F41DA"
+					item: "rootsclassic:staff"
+					type: "item"
+				}
+			]
+			title: "Your First Staff"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B8810899EDF3ACB"]
+			icon: "rootsclassic:altar"
+			id: "3D1CC9B0E2E8F55D"
+			rewards: [{
+				id: "4A39C54D21028C3C"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "I am the Lorax"
+			tasks: [
+				{
+					id: "58D670F1682A0325"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4EE9E01C17E2140F"
+					item: "rootsclassic:brazier"
+					type: "item"
+				}
+			]
+			title: "Rituals"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D1CC9B0E2E8F55D"]
+			icon: {
+				Count: 1
+				id: "rootsclassic:living_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F8D582E9D76232C"
+			tasks: [{
+				id: "0D57965A66CD2C19"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rootsclassic:living_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:living_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:living_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:living_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:living_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "One of any Living Tools"
+				type: "item"
+			}]
+			title: "Living Equipment"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F8D582E9D76232C"]
+			icon: "rootsclassic:mundane_standing_stone"
+			id: "7B1C32F755ACD239"
+			tasks: [{
+				count: 8L
+				id: "6A7D3D2D67BE8B75"
+				item: { Count: 8, id: "rootsclassic:mundane_standing_stone" }
+				type: "item"
+			}]
+			title: "Standing Stones"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D7665F00EB48653"]
+			id: "26F8C0C286096E59"
+			tasks: [{
+				id: "2BCB33AAE515B07D"
+				item: { Count: 4, id: "rootsclassic:mutating_powder" }
+				type: "item"
+			}]
+			title: "Plant Feast"
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4A5AA4F6F839AC58"
+				"26F8C0C286096E59"
+			]
+			icon: "rootsclassic:radiant_daisy"
+			id: "6C203D63A518D613"
+			tasks: [{
+				id: "2755BFDFDBB2D563"
+				item: "rootsclassic:radiant_daisy"
+				type: "item"
+			}]
+			title: "Powerful Flora"
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["05C68A3D9E6B6F70"]
+			id: "4A5AA4F6F839AC58"
+			tasks: [{
+				id: "29FA8E06E49996FC"
+				item: "rootsclassic:crystal_staff"
+				type: "item"
+			}]
+			title: "Your Last Staff"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7B1C32F755ACD239"]
+			icon: {
+				Count: 1
+				id: "druid:druids_armor_t2_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C52F086FC3B01BB"
+			tasks: [
+				{
+					id: "0DB56D34289180F7"
+					item: {
+						Count: 1
+						id: "druid:druids_armor_t2_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D80657B524001D6"
+					item: {
+						Count: 1
+						id: "druid:druids_armor_t2_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "450322B2D472E527"
+					item: {
+						Count: 1
+						id: "druid:druids_armor_t2_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F7F51F3E0C9239A"
+					item: {
+						Count: 1
+						id: "druid:druids_armor_t2_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Leshy's Attire"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1C52F086FC3B01BB"]
+			id: "5CE7DB93FD67FF99"
+			tasks: [{
+				count: 2L
+				id: "7D9DE7BA0242600E"
+				item: { Count: 2, id: "rootsclassic:infernal_bulb" }
+				type: "item"
+			}]
+			title: "Hellish Roots"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1C52F086FC3B01BB"]
+			id: "7E53E37CA21A7EDF"
+			tasks: [{
+				count: 4L
+				id: "1EB8B1FBA2D4D805"
+				item: { Count: 4, id: "rootsclassic:attuned_standing_stone" }
+				type: "item"
+			}]
+			title: "Improved Rituals"
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7E53E37CA21A7EDF"]
+			icon: {
+				Count: 1
+				id: "rootsclassic:wildwood_plate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "678B5CB2F6E5E1A7"
+			subtitle: "No metal was used"
+			tasks: [
+				{
+					id: "067791C1E3A1E9DF"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FE25F126CBA1351"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_plate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0299DE3BB464549C"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AB29542D6703C1F"
+					item: {
+						Count: 1
+						id: "rootsclassic:wildwood_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Haida Armor"
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["678B5CB2F6E5E1A7"]
+			id: "2F68D39317A2F01B"
+			subtitle: "For a Speaking Stone, it doesn't speak much"
+			tasks: [{
+				id: "7F72E94ACC302FA5"
+				item: "rootsclassic:runic_focus"
+				type: "item"
+			}]
+			title: "Stone of Fál"
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F68D39317A2F01B"]
+			id: "6BACC493A4CC3DEC"
+			subtitle: "Nuada wants his sword back"
+			tasks: [{
+				id: "1DC0632D6C823116"
+				item: {
+					Count: 1
+					id: "rootsclassic:engraved_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Claíomh Solais"
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2F68D39317A2F01B"]
+			id: "6F195A5AC19C028F"
+			subtitle: "I AM FULLY CHARGED"
+			tasks: [{
+				id: "2BE7E7F930EBD303"
+				item: "rootsclassic:charged_runic_focus"
+				type: "item"
+			}]
+			title: "Ard Rí"
+			x: 4.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"5CE7DB93FD67FF99"
+				"7E53E37CA21A7EDF"
+			]
+			id: "1B514C2015BC4C77"
+			tasks: [{
+				icon: "rootsclassic:repulsor_standing_stone"
+				id: "149AD189C6A3CFCA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rootsclassic:igniter_standing_stone"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:entangler_standing_stone"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:accelerator_standing_stone"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:repulsor_standing_stone"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:vacuum_standing_stone"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:healer_standing_stone"
+							}
+							{
+								Count: 1b
+								id: "rootsclassic:grower_standing_stone"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Advanced Stones"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B514C2015BC4C77"]
+			id: "6924E433E92948EF"
+			tasks: [{
+				count: 2L
+				id: "1E3E421AF29A3CB5"
+				item: { Count: 2, id: "rootsclassic:dragons_eye" }
+				type: "item"
+			}]
+			title: "Outer Roots"
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"6F195A5AC19C028F"
+				"6BACC493A4CC3DEC"
+			]
+			icon: "arkane_domains:forest_skull"
+			id: "1ECC87CF1E485A05"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				entity: "arkane_domains:savage_druid"
+				icon: "arkane_domains:druid_wand"
+				id: "06CD2969ADD3E06F"
+				title: "Slay the Savage Druid"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Semias's Reject"
+			x: 3.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5CE7DB93FD67FF99"]
+			icon: "kubejs:bear_aspect"
+			id: "6F317E72601D1A02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF0670577C0FDC6"
+				table_id: 5142410170173669698L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "03A6A9D5B61F0E2A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:fire_beetle_aspect"
+							}
+							{
+								Count: 1b
+								id: "kubejs:lionfish_aspect"
+							}
+							{
+								Count: 1b
+								id: "kubejs:bear_aspect"
+							}
+						]
+					}
+				}
+				title: "One of any Beast Shape"
+				type: "item"
+			}]
+			title: "Beast Shapes"
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7B1C32F755ACD239"]
+			icon: "kubejs:cat_aspect"
+			id: "42FBFC8C4D9BAECE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62B553DA7E31329B"
+				table_id: 6894143559765198191L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6F004969E6A888EA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:cat_aspect"
+							}
+							{
+								Count: 1b
+								id: "kubejs:cave_spider_aspect"
+							}
+							{
+								Count: 1b
+								id: "kubejs:bee_aspect"
+							}
+						]
+					}
+				}
+				title: "One of any Wild Shape"
+				type: "item"
+			}]
+			title: "Wild Shapes"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6924E433E92948EF"]
+			icon: "kubejs:gnasher_aspect"
+			id: "3A26A00EF7E6C4EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67E1AD443E160606"
+				table_id: 6794678279362762177L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "01A5AD56A3359B32"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:ravager_aspect"
+							}
+							{
+								Count: 1b
+								id: "kubejs:queen_bee_aspect"
+							}
+							{
+								Count: 1b
+								id: "kubejs:gnasher_aspect"
+							}
+						]
+					}
+				}
+				title: "One of any Monster Shape"
+				type: "item"
+			}]
+			title: "Monster Shapes"
+			x: 0.5d
+			y: -15.0d
+		}
+	]
+	title: "Druidic Arts"
+}

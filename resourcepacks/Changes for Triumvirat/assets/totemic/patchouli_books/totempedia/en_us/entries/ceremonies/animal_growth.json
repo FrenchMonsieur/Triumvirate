@@ -1,0 +1,18 @@
+{
+    "name": "totemic.entry.animal_growth",
+    "icon": "minecraft:air",
+    "category": "totemic:ceremonies",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.animal_growth0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "totemic:animal_growth",
+            "text": "totemic.page.animal_growth1"
+        }
+    ],
+    "advancement": "totemic:totempedia/wind_chime_unlocked",
+    "sortnum": 4
+}

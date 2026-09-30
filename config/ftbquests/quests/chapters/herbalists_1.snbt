@@ -1,0 +1,986 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "herbalists_1"
+	group: "4C3F8330F95D1BC7"
+	icon: "totemic:tipi"
+	id: "4E9B4274A5A5EFFA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C8FA5AC013AC582"]
+			description: [
+				"These are your first tools as &cShaman&r. With these, you can now carve &6Totems&r, and learn more about the &2Ceremonies&r you'll execute."
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			icon: "totemic:totemic_staff"
+			id: "3BF8DFD00F1443E3"
+			rewards: [{
+				id: "2CF2E7CAF1198C3D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "711A6AB6FFE7FCCA"
+					item: {
+						Count: 1
+						id: "totemic:totem_whittling_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CB14920A6A6CC3F"
+					item: "totemic:totemic_staff"
+					type: "item"
+				}
+			]
+			title: "First Steps as a Shaman"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BF8DFD00F1443E3"]
+			description: [
+				"&1Melody&r is an energy that every &3Music Instruments&r produce. This energy is seeped into nearby &6Totem Poles.&r "
+				""
+				"&3Flutes&r and &3Drums&r are the first &3Instruments&r &cShaman&r uses. They are simple to play but don't create much &1Melody.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			icon: "totemic:drum"
+			id: "0B3B748180D9E1F8"
+			rewards: [{
+				id: "29FE0A9D296A2FB0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "30FB60F1768911DE"
+					item: "totemic:flute"
+					type: "item"
+				}
+				{
+					id: "6C90AEC570B98CF3"
+					item: "totemic:drum"
+					type: "item"
+				}
+			]
+			title: "Nature's Melody"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B3B748180D9E1F8"]
+			description: [
+				"To start a &2Ceremony,&r you need to play two &3Music Instruments&r while sneaking near a &6Totem Pole.&r "
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "408AE7E5F5381D70"
+			rewards: [{
+				id: "7F01D5FCBF1EFC8B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 3L
+				id: "193A113F6A356628"
+				item: "totemic:cedar_sapling"
+				type: "item"
+			}]
+			title: "Battle Cantabile"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BF8DFD00F1443E3"]
+			description: [
+				"Most of the &cShamanism&r takes place here, in the &2Oak Savannah.&r With its &6Bald Eagles&r and &6Buffalos,&r &6Lions&r and &6Stackatick...&r &oyeah I don't know what it is either.&r"
+				""
+				"But you can surely stay and even make yourself comfortable here. Craft a &2Tipi,&r place a few &2Totem Torches,&r and roast &6Buffalo&r meat on a &2Campfire.&r"
+			]
+			icon: "minecraft:acacia_sapling"
+			id: "7782B99A563E348D"
+			rewards: [
+				{
+					count: 2
+					id: "7D4B1A2FEFE49DB6"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F266018ADBC8822"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "168EB3570FBF213E"
+					item: "totemic:buffalo_meat"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52C069528D2D0336"
+					item: "totemic:tipi"
+					type: "item"
+				}
+				{
+					id: "09B8114E44430CF3"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "47C6E1545FF14772"
+					item: { Count: 5, id: "totemic:totem_torch" }
+					type: "item"
+				}
+				{
+					biome: "twilightforest:oak_savannah"
+					icon: "minecraft:acacia_sapling"
+					id: "06C8AAE4CCFFC27B"
+					title: "Find the Oak Savannah"
+					type: "biome"
+				}
+			]
+			title: "Outdoor Boys"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7782B99A563E348D"]
+			description: [
+				"Here in the &2Oak Savannah&r you can naturally find &6Lions,&r so try and tame one. "
+				""
+				"You just need like a whole stack of &cmeat.&r"
+				""
+				"Once tamed you can order them to &ofollow, wander or sit&r, and &3dye&r their marks any &9colors&r you want."
+			]
+			id: "1A7C51FB7F8D1DD4"
+			rewards: [{
+				id: "092363140C6730F7"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Long Live the King"
+			tasks: [{
+				advancement: "minecraft:primal/tame_lion"
+				criterion: ""
+				icon: "primal:lion_spawn_egg"
+				id: "13998A36665799B3"
+				title: "Tame a Lion"
+				type: "advancement"
+			}]
+			title: "The Lion King"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3195AF19CE9B44E8"]
+			description: [
+				"The &2Medicine Bag,&r allows you to carry with you a &6Totem&r carving effect."
+				""
+				"All you have to do is &oSneak+Right Click&r on a carved &6Totem Pole.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "55A5843D5C2948B5"
+			rewards: [{
+				id: "11279EDBA9A6BB6B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "I AM FULLY CHARGED"
+			tasks: [{
+				id: "158D9FAF45865DC7"
+				item: "totemic:medicine_bag"
+				type: "item"
+			}]
+			title: "MEDIC !!!"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7782B99A563E348D"]
+			description: ["Here in the &2Oak Savannah,&r there are numerous animals, but you'll exclusively find &6Buffalos&r and &6Bald Eagles&r here and only here."]
+			icon: "totemic:buffalo_hide"
+			id: "73F9E2568FFEE2CA"
+			rewards: [
+				{
+					count: 5
+					id: "4440FF14A1B35394"
+					item: "totemic:buffalo_meat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "47DA2047A0C37273"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "totemic:bald_eagle"
+					icon: "minecraft:feather"
+					id: "2374FD46AFE02617"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "totemic:buffalo"
+					icon: "totemic:buffalo_hide"
+					id: "48FAB441C5E6E09C"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "The Birds and the Beefs"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["408AE7E5F5381D70"]
+			description: [
+				"The &3Jingle Dress&r and &3Wind Chimes&r are apprentice level &3Instruments&r that &cShaman&r uses. They require more thoughts to play but create more &1Melodies.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			icon: "totemic:wind_chime"
+			id: "2207054F224F22E9"
+			rewards: [{
+				id: "5E8C117D889024D3"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "2FBD4AA0944FBA1E"
+					item: {
+						Count: 1
+						id: "totemic:jingle_dress"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D2A73FFFF6BBF3"
+					item: "totemic:wind_chime"
+					type: "item"
+				}
+			]
+			title: "Move like the Wind"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2207054F224F22E9"]
+			description: [
+				"Good job &cShaman&r, you're starting to perform more advanced &2Ceremonies,&r you can now bring forth &bCows&r to these lands, they are creatures of a past epoch. "
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "3195AF19CE9B44E8"
+			rewards: [{
+				id: "06DF28B87D84D38D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: "totemic:buffalo_tooth"
+				id: "367D2E40D7E55EB7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Creature of the Past"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3195AF19CE9B44E8"]
+			description: [
+				"The &3Rattle&r is one of the more advanced &3Instrument&r that &cShaman&r uses. It requires more thoughts to play but create greater &1Melodies.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "11B6D1D455A62239"
+			rewards: [{
+				id: "79B05E6A822FA2C6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3F91BA3A8F342A0A"
+				item: "totemic:rattle"
+				type: "item"
+			}]
+			title: "Rattles "
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["11B6D1D455A62239"]
+			description: [
+				"You &cShaman&r make me proud, you're now able to perform &2Ceremonies,&r at an expert level, you can now bring forth &bParrots&r to these lands, they are creatures of a past epoch. "
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "42EF49C6BF4F7D57"
+			rewards: [{
+				id: "6AC39872EF16140F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "minecraft:parrot"
+				icon: "kubejs:parrot_feather"
+				id: "7514B552C2DC464C"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Acquaintances of the past"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["42EF49C6BF4F7D57"]
+			description: [
+				"The &3Parrot-Bone Whistle&r is the last &3Instrument&r that &cShaman&r uses. It can create the greatest of &1Melodies.&r but be careful, for the bones tell stories of the &0darkest&r past."
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "051518EAD8EF84BD"
+			rewards: [{
+				id: "43975C82E056AA70"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6EAB01CBEF7D42AB"
+				item: "totemic:eagle_bone_whistle"
+				type: "item"
+			}]
+			title: "Death Whistle"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["051518EAD8EF84BD"]
+			description: [
+				"This is the last &2Ceremony&r. The &4Dark Shaman&r isn't just any foe, once a great tribe leader and one of the best &cShamans&r ever, he inevitably fell to the forces of &0evil&r."
+				""
+				"Be prepared &cShaman&r, this is your strongest &4foe.&r"
+			]
+			icon: "arkane_domains:pestilence_bomb_0"
+			id: "01C0B922FB75B938"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28CC23B2171A1F47"
+					table_id: 7490603318550589444L
+					type: "choice"
+				}
+				{
+					id: "2B31DA1FFCD615A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Baykok can cry about it"
+			tasks: [{
+				entity: "arkane_domains:dark_shaman"
+				icon: {
+					Count: 1
+					id: "arkane_domains:mask_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1A39997426236706"
+				title: "Slay the Dark Shaman"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Lakota"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4C8FA5AC013AC582"]
+			description: [
+				"These &4Spears&r are the equivalent to &9Tridents,&r but for the early game. But unlike &9Tridents&r they don't allow you to roam at mach 5 in the rain."
+				""
+				"These &4weapons&r are great for close to mid range fights, and would greatly benefit your &chunts.&r"
+			]
+			id: "011A3D26E1894D35"
+			rewards: [{
+				id: "3CD357605C3D71CE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "spearsmod:stone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6BA525E84C797826"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spearsmod:wooden_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spearsmod:stone_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spearsmod:iron_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spearsmod:golden_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spearsmod:diamond_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spearsmod:netherite_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Get any spear"
+				type: "item"
+			}]
+			title: "Unlike Skyrim"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7782B99A563E348D"]
+			description: [
+				"This the &cShamans&r suit, an armor that suits quite the &cShamans.&r "
+				""
+				"A bit weaker than iron armor but is great on the eyes. &oAin't it ?&r"
+			]
+			icon: {
+				Count: 1
+				id: "berserker_rpg:northling_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16915517FEEA739C"
+			rewards: [{
+				id: "68FF5E7019F38B23"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "5B2A451B6CCE2421"
+					item: {
+						Count: 1
+						id: "berserker_rpg:northling_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DD22ABF5BC0D598"
+					item: {
+						Count: 1
+						id: "berserker_rpg:northling_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41444FB0F25831E7"
+					item: {
+						Count: 1
+						id: "berserker_rpg:northling_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6116B9708709AC13"
+					item: {
+						Count: 1
+						id: "berserker_rpg:northling_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "unBEARable"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: ["Welcome &cShaman&r, this is the &eTotempedia&r, the book, that will teach you everything there is to know about &6Totems&r and &2Ceremonies.&r"]
+			id: "4C8FA5AC013AC582"
+			rewards: [{
+				id: "375DAA04060EA4C2"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "hexagon"
+			subtitle: "Cause you need one"
+			tasks: [{
+				id: "2321ECF36C4BDF24"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "totemic:totempedia"
+					}
+				}
+				type: "item"
+			}]
+			title: "Book of Shamanism"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B6D1D455A62239"]
+			description: [
+				"&3Pan's Flute&r is a special &3Instrument&r that &cShamans&r have created. It allows the &cShamans&r to play a melody that enthralls nearby creatures to follow them."
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "4E639CF898D21545"
+			rewards: [{
+				id: "31B0ABFA28D9B7C8"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "746F25410A747D85"
+				item: "totemic:infused_flute"
+				type: "item"
+			}]
+			title: "Panpipes"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["042D798F8E36B617"]
+			description: [
+				"The first &4hunt&r that can be called upon is the &9Twilight Hunt&r, with a &3Drum&r and an &3Apache Fiddle&r. When the &2ceremony&r is started an idol of the &1Hirschgeist&r, this idol will summon waves of creatures past and present. Notably the &9Twilight Goat.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "3A6EA92073696874"
+			rewards: [{
+				id: "70EF75CC63F2E111"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				entity: "goety:twilight_goat"
+				icon: "kubejs:twilight_goat_hide"
+				id: "17D925866A4F7198"
+				title: "Hunt a Twilight Goat"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Black Goat"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A6EA92073696874"]
+			description: [
+				"The second &4hunt&r that can be called upon is the &cBlood Hunt&r, with a &3Wind Chime&r and an &3Apache Fiddle&r. This idol will summon waves of creatures past and present. Notably the &cBewereager.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "6C2B8BE07D7D6DE1"
+			rewards: [{
+				id: "56EAE75489E502C9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				entity: "species:bewereager"
+				icon: "species:werefang"
+				id: "2E014DC64C4BBE08"
+				title: "Hunt a Bewereager"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Blood-Starved Beast"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2B8BE07D7D6DE1"]
+			description: [
+				"The thrid &4hunt&r that can be called upon is the &8Weaver Hunt&r, with a &3Rattle&r and an &3Apache Fiddle&r. This idol will summon waves of creatures past and present. Notably the &cBrood Mother.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "4E904BFF9A91CE15"
+			rewards: [{
+				id: "61F8F72BC3197944"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				entity: "goety:brood_mother"
+				icon: "goety:brood_mother_spawn_egg"
+				id: "757C7ED21F09013B"
+				title: "Hunt a Brood Mother"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Weaving Monster"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E904BFF9A91CE15"]
+			description: [
+				"The last &4hunt&r is a bit more special, you need a &7Deer Effigy&r, the &7White Stag Hunt&r can be started with a &3Parrot-Bone Whistle&r and an &3Apache Fiddle&r. This &2ceremony&r will transform a &7Deer Effigy&r into an &5Awakened Deer Effigy&r. You can use this &5Awakened Deer Effigy&r to summon the &1Hirschgeist.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			icon: {
+				Count: 1
+				id: "whisperwoods:hirschgeist_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01B0B494E9322211"
+			rewards: [
+				{
+					id: "33085D81715BB76D"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+				{
+					id: "5E1AA2501E69C58F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "whisperwoods:hirschgeist"
+					icon: {
+						Count: 1
+						id: "whisperwoods:hirschgeist_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7C79A6216EB69756"
+					title: "Hunt The Hirschgeist"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "37CA766E95BF9BD2"
+					item: "kubejs:awake_deer_effigy"
+					type: "item"
+				}
+			]
+			title: "The White Stag"
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6C2B8BE07D7D6DE1"]
+			description: [
+				"This the &8Hunters&r suit, an upgrade to the &cShaman's&r suit. Is as strong as an iron armor. "
+				""
+				"One of the standard articles of &8hunter&r attire fashioned at the &6Crafting Table&r. A fine piece of &8hunter&r attire that provides stable defense to anyone facing &9Twilight Forest's&r &cbeastly&r threats. Allows one to stalk &cbeasts&r unannounced, by cover of &9twilight&r."
+			]
+			icon: {
+				Count: 1
+				id: "berserker_rpg:netherite_northling_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30557C5AB3CBEA1D"
+			rewards: [{
+				id: "651826814015BFE4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "15EB5A6357DC0955"
+					item: {
+						Count: 1
+						id: "berserker_rpg:netherite_northling_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B745135ADB024EA"
+					item: {
+						Count: 1
+						id: "berserker_rpg:netherite_northling_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "752DA4B002EBB81B"
+					item: {
+						Count: 1
+						id: "berserker_rpg:netherite_northling_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AEF122F48DD415F"
+					item: {
+						Count: 1
+						id: "berserker_rpg:netherite_northling_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Werebear's Armor"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6C2B8BE07D7D6DE1"]
+			description: [
+				"A &8Hunter&r needs arms as strong as the &cbeasts&r he faces, with the fangs of the &cBewearager&r, the &8Hunter&r can create the &8Crankbow&r and the &8Hunter's Axe&r."
+				""
+				"One of the &8weapons&r of the &6Crafting Table&r, commonly used on the &4hunt.&r Retains the qualities of an &8axe,&r but offers a wider palette of attacks. Boasts a &8heavy blunt attack&r. No matter their pasts, &cbeasts&r are no more than &cbeasts.&r Some choose this &8axe&r to play the part of &4executioner.&r"
+			]
+			icon: {
+				Count: 1
+				id: "berserker_rpg:iron_berserker_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "449ECD3B43AB36DF"
+			rewards: [{
+				id: "73DA7F670E897341"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "A hoonter must hoont"
+			tasks: [
+				{
+					id: "5734DF99CCAC7B7E"
+					item: {
+						Count: 1
+						id: "berserker_rpg:iron_berserker_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BE82748669DFE49"
+					item: {
+						Count: 1
+						id: "species:crankbow"
+						tag: {
+							Damage: 0
+							Items: [
+								{
+									Count: 64b
+									id: "minecraft:arrow"
+								}
+								{
+									Count: 64b
+									id: "minecraft:arrow"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hunter's Weaponery"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7782B99A563E348D"]
+			description: [
+				"&cShamans&r have many responsabilities, but the main one is the &4Sacred Hutns&r. &4Sacred Hunts&r are called upon by &cShamans&r to chase spirits and creatures of old. Only the &3Apache Fiddle&r have the power to call them."
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			icon: "kubejs:fiddle"
+			id: "042D798F8E36B617"
+			rewards: [{
+				id: "7E4E9F59B759643D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1D43487A0EB01F4C"
+				item: "kubejs:fiddle"
+				type: "item"
+			}]
+			title: "Ancestral Call"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A6EA92073696874"]
+			description: [
+				"The &7Goat Hooves&r is an &cHunter Equipment&r that can be crafted with &9Twilight Forest Hide&r. The &8Goat Hooves&r allows the immunity to &7knockback.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "2828B02548764B3D"
+			rewards: [{
+				id: "65C403D652D9835D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A0F9FB74A38942F"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E904BFF9A91CE15"]
+			description: [
+				"The &aFeral Claws&r are a &cHunter Equipment&r that can be crafted with &aVenomous Fangs&r. The &aFeral Claws&r increase the &8Hunter's&r &7Attack Speed.&r"
+				""
+				"You can of course learn more by reading the &eTotempedia&r."
+			]
+			id: "19C92664F1369949"
+			rewards: [{
+				id: "154680D4F5C9949B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "74CDD429E4AC3E07"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4E904BFF9A91CE15"]
+			description: [
+				"A &8Hunter&r needs arms as vicious as the &cbeasts&r he faces, with the fangs of the &aBrood Mother&r, the &8Hunter&r can create the &aFanged Dagger&r. As well as the &8Spider Nest&r that can be used to protect a zone."
+				""
+				"A &7knife&r slathered in &apoison.&r This &7curved knife&r is as thin and sharp as a surgeon's &7blade.&r Often used for self-defense by special &8Hunters&r in the &9Twilight Forest&r. "
+			]
+			icon: {
+				Count: 1
+				id: "goety:fanged_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "448C696AA3AA17F8"
+			rewards: [{
+				id: "4F0A3D1C2D286EF9"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "the saac"
+			tasks: [
+				{
+					id: "184725984FB67FB0"
+					item: {
+						Count: 1
+						id: "goety:fanged_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C887D0D79D97EAA"
+					item: "goety:spider_nest"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+	]
+	title: "Shamanism"
+}

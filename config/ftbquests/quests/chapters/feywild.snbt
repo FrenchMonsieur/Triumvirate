@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "feywild"
+	group: "4C3F8330F95D1BC7"
+	icon: "feywild:fey_altar"
+	id: "2C09FAF07EDCCE62"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"01C0B922FB75B938"
+				"1ECC87CF1E485A05"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Howdy &dWanderer&r, this is the &eFeywild Lexicon&r the book that will teach you everything there is to know about &dFeys&r, and how to make pacts with these creatures to gain immense power."]
+			hide_until_deps_complete: true
+			id: "709662741A9403D9"
+			subtitle: "Cause you need one"
+			tasks: [{
+				id: "1CB81F592CAB827D"
+				item: "feywild:feywild_lexicon"
+				type: "item"
+			}]
+			title: "Fey Wanderer Lexicon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["709662741A9403D9"]
+			id: "61FCB6792CEA27F9"
+			tasks: [{
+				biome: "twilightforest:enchanted_forest"
+				icon: "twilightforest:rainbow_oak_sapling"
+				id: "2FED2D3C3F301CBD"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Adventure of the Feywild"
+}

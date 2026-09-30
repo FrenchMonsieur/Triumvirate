@@ -1,0 +1,27 @@
+{
+    "name": "totemic.entry.brood_mother",
+    "icon": "goety:brood_mother_spawn_egg",
+    "category": "totemic:wild",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.brood_mother0"
+        },
+        {
+            "type": "totemic:ceremony",
+            "ceremony": "kubejs:brood_hunt",
+            "text": "totemic.page.brood_mother1"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "goety:brood_mother",
+            "scale": 0.8
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "goety:fanged_dagger",
+            "recipe2": "artifacts:feral_claws"
+        }
+    ],
+    "sortnum": 3
+}

@@ -1,0 +1,7 @@
+
+#Client-side display and UI settings.
+[worldCreation]
+	#When true, the Oceanic Islands world type is pre-selected when opening the Create World screen.
+	#Vanilla world types remain available and can still be selected by cycling through the list.
+	defaultOceanicWorldType = true
+

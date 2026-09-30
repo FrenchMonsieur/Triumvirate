@@ -1,0 +1,43 @@
+{
+  "cache": {
+    "rpg_series:tier_4_weapons": [],
+    "rpg_series:tier_1_armors": [],
+    "rpg_series:tier_2_armors": [
+      "berserker_rpg:northling_feet",
+      "berserker_rpg:northling_head",
+      "berserker_rpg:northling_legs",
+      "berserker_rpg:northling_chest",
+      "druid:druids_armor_t2_head",
+      "druid:druids_armor_t2_chest",
+      "druid:druids_armor_t2_legs",
+      "druid:druids_armor_t2_feet"
+    ],
+    "rpg_series:tier_3_armors": [
+      "archers:netherite_ranger_armor_head",
+      "archers:netherite_ranger_armor_chest",
+      "archers:netherite_ranger_armor_legs",
+      "archers:netherite_ranger_armor_feet",
+      "berserker_rpg:netherite_northling_feet",
+      "berserker_rpg:netherite_northling_head",
+      "berserker_rpg:netherite_northling_legs",
+      "berserker_rpg:netherite_northling_chest"
+    ],
+    "rpg_series:tier_0_accessories": [],
+    "rpg_series:tier_1_accessories": [],
+    "rpg_series:tier_3_weapons": [],
+    "rpg_series:tier_2_accessories": [],
+    "rpg_series:tier_3_accessories": [],
+    "rpg_series:tier_1_weapons": [
+      "minecraft:crossbow",
+      "berserker_rpg:iron_berserker_axe"
+    ],
+    "rpg_series:golden_weapons": [],
+    "rpg_series:tier_2_weapons": [
+      "archers:mechanic_shortbow"
+    ],
+    "rpg_series:tier_4_accessories": [],
+    "rpg_series:tier_0_weapons": [
+      "minecraft:bow"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "totemic.entry.drum",
+    "icon": "totemic:drum",
+    "category": "totemic:instruments",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "totemic.page.drum0"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "totemic:drum"
+        }
+    ],
+    "sortnum": 1
+}

@@ -1,0 +1,22 @@
+{
+    "providers": [
+
+        	{ "type": "bitmap",
+            "file": "minecraft:font/hirchgeist_bars.png",
+            "ascent": 11, "height": 41,
+            "chars": ["\uE800"]
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/space"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/default"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/unifont"
+        }
+    ]
+}

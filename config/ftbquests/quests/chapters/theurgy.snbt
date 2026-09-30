@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "theurgy"
+	group: "73C2F2245512DA89"
+	icon: {
+		Count: 1
+		id: "theurgy:divination_rod_t1"
+		tag: {
+			Damage: 0
+			"theurgy:divination.setting.allow_attuning": 1b
+			"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+			"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+			"theurgy:divination.setting.duration": 40
+			"theurgy:divination.setting.max_damage": 8
+			"theurgy:divination.setting.range": 96
+			"theurgy:divination.setting.tier": "minecraft:stone"
+		}
+	}
+	id: "6DE58193539075AC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Theurgy"
+}

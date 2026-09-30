@@ -1,0 +1,80 @@
+
+[settings]
+	#Server-authoritative global player chat toggle for FeatheredFriend.
+	#If true, FeatheredFriend will block player chat (commands unaffected).
+	#
+	#This value is hot-reloadable and is synced to clients.
+	#
+	#Note: older versions stored chatDisabled in world SavedData; this config now drives the behavior directly.
+	chatDisabledDefault = false
+	#Maximum number of Raven Chests a single player may have placed.
+	#Hot-reloadable and server-authoritative.
+	#
+	#If reduced below currently placed counts, existing chests are not removed,
+	#but additional placements are blocked until the player is back within limit.
+	#Range: 0 ~ 64
+	ravenChestsPerPlayer = 3
+	#How long Raven Log entries are retained, in minutes.
+	#0 means keep no history.
+	#Range: 0 ~ 129600
+	ravenLogRetentionMinutes = 10080
+	#Maximum retained Raven Log size per player (in bytes).
+	#If exceeded, that player's Raven Log is cleared entirely.
+	#0 means keep no history.
+	#Range: 0 ~ 4194304
+	ravenLogMaxBytesPerPlayer = 262144
+	#Real-time cooldown in seconds between Enderpack -> Raven Chest deposit workflows per player.
+	#Hot-reloadable and server-authoritative.
+	#0 disables cooldown.
+	#Range: 0 ~ 86400
+	enderpackDepositCooldownSeconds = 600
+	#Real-time cooldown in seconds between raven scroll deliveries per player.
+	#Hot-reloadable and server-authoritative.
+	#0 disables cooldown.
+	#Range: 0 ~ 86400
+	scrollDeliveryCooldownSeconds = 600
+	#Real-time interval in seconds between automatic retries for courier jobs that failed by timeout.
+	#Hot-reloadable and server-authoritative.
+	#0 disables automatic timeout retry.
+	#Range: 0 ~ 86400
+	courierTimeoutRetrySeconds = 60
+	#Real-time cooldown in seconds between brushing a raven (right-click with vanilla Brush).
+	#Hot-reloadable and server-authoritative.
+	#0 disables cooldown.
+	#Range: 0 ~ 86400
+	brushRavenCooldownSeconds = 30
+	#How long Raven Link lasts (seconds).
+	#Hot-reloadable and server-authoritative.
+	#
+	#Note: changing this value immediately affects ongoing Raven Links as well.
+	#Range: 5 ~ 600
+	ravenLinkDurationSeconds = 30
+	#If false, no player (including OPs) can view or edit FeatheredFriend server settings
+	#from the in-game settings screen. TOML still remains authoritative.
+	allowServerSettingsScreenEditing = true
+
+	[settings.features]
+		#If false, Suspicious Feather cannot start Raven Link / revive.
+		#Existing items remain but will be inert.
+		enableSuspiciousFeather = true
+		#If false, Suspicious Chest (Raven Chest) special behavior is disabled.
+		#Existing blocks/items remain; storage stays accessible.
+		enableSuspiciousChest = true
+		#If false, Raven armor items cannot be equipped and armor stat modifiers are ignored.
+		#Existing armor items remain.
+		enableRavenArmor = true
+		#If false, Mailbox spotting + courier delivery to mailboxes is disabled.
+		#Existing mailbox blocks/items remain; storage stays accessible.
+		enableMailbox = true
+
+[spawning]
+	#How many WILD (untamed) ravens FeatheredFriend may keep spawned per online (non-spectator) player.
+	#This is only used by FeatheredFriend's own natural spawn handler (not by vanilla biome spawns).
+	#
+	#Examples:
+	#- 0: disable wild raven spawning (and aggressively cull existing wild ravens near players)
+	#- 1: at most 1 wild raven per online player (default)
+	#- 2: allow up to 2 wild ravens per online player
+	#Range: 0 ~ 16
+	wildRavensPerPlayer = 1
+

@@ -1,0 +1,6 @@
+{
+	"parent": "druid:item/staff",
+	"textures": {
+		"layer0": "druid:item/starforged_nature_staff"
+	}
+}

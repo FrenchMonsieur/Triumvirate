@@ -1,0 +1,87 @@
+{
+  "icicle_crash": {
+    "sounds": [
+      "more_rpg_classes:icicle_crash"
+    ]
+  },
+  "strong_attack": {
+    "sounds": [
+      "more_rpg_classes:strong_attack"
+    ]
+  },
+  "crippling_strike": {
+    "sounds": [
+      "more_rpg_classes:crippling_strike"
+    ]
+  },
+  "slash_impact": {
+    "sounds": [
+      "more_rpg_classes:slash_impact"
+    ]
+  },
+  "water_magic_impact1": {
+    "sounds": [
+      "more_rpg_classes:water_magic_impact1"
+    ]
+  },
+  "earth_magic_cast1": {
+    "sounds": [
+      "more_rpg_classes:earth_magic_cast1"
+    ]
+  },
+  "earth_magic_impact1": {
+    "sounds": [
+      "more_rpg_classes:earth_magic_impact1"
+    ]
+  },
+  "earth_magic_impact2": {
+    "sounds": [
+      "more_rpg_classes:earth_magic_impact2"
+    ]
+  },
+  "air_magic_cast1": {
+    "sounds": [
+      "more_rpg_classes:air_magic_cast1"
+    ]
+  },
+  "air_magic_impact1": {
+    "sounds": [
+      "more_rpg_classes:air_magic_impact1"
+    ]
+  },
+  "air_magic_impact2": {
+    "sounds": [
+      "more_rpg_classes:air_magic_impact2"
+    ]
+  },
+  "air_magic_impact3": {
+    "sounds": [
+      "more_rpg_classes:air_magic_impact3"
+    ]
+  },
+  "air_explosion": {
+    "sounds": [
+      "more_rpg_classes:air_explosion"
+    ]
+  },
+  "frost_crackle": {
+    "sounds": [
+      "more_rpg_classes:frost_crackle"
+    ]
+  },
+  "holy_release": {
+    "sounds": [
+      "more_rpg_classes:holy_release"
+    ]
+  },
+  "arcane_strong_impact": {
+    "sounds": [
+      "more_rpg_classes:arcane_strong_impact"
+    ]
+  },
+  "frost_crackle_long": {
+    "sounds": [
+      "more_rpg_classes:frost_crackle_long"
+    ]
+  }
+}

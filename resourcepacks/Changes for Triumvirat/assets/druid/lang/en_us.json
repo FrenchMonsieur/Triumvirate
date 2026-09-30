@@ -1,0 +1,29 @@
+{
+  "item.druid.druids_spell_book": "Nature Spell Book",
+
+  "item.druid.wooden_nature_staff": "Wooden Nature Staff",
+  "item.druid.iron_nature_staff": "Iron Nature Staff",
+  "item.druid.netherite_nature_staff": "Netherite Nature Staff",
+  "item.druid.starforged_nature_staff": "Starforged Nature Staff",
+
+  "item.druid.druids_armor_t1_head": "Druid Crown",
+  "item.druid.druids_armor_t1_chest": "Druid Vest",
+  "item.druid.druids_armor_t1_legs": "Druid Leggings",
+  "item.druid.druids_armor_t1_feet": "Druid Boots",
+  "item.druid.druids_armor_t2_head": "Forest Sage Crown",
+  "item.druid.druids_armor_t2_chest": "Forest Sage Vest",
+  "item.druid.druids_armor_t2_legs": "Forest Sage Leggings",
+  "item.druid.druids_armor_t2_feet": "Forest Sage Boots",
+
+  "spell.druid.evokes_roots.name": "Evoke Roots",
+  "spell.druid.evokes_roots.description": "Evoke Roots under an enemy target to damage it over time and slow it down",
+  "spell.druid.poisonous_thorn.name": "Poisonous Thorn",
+  "spell.druid.poisonous_thorn.description": "Sting an enemy with a big thorn that deals {damage} spell power and poisoning the target, stronger the spell power stronger the poison",
+  "spell.druid.leaves_tornado.name": "Leaves Tornado",
+  "spell.druid.leaves_tornado.description": "Summon a powerful tornado of leaves from the tip of the caster staff dealing up to {damage} spell damage for second",
+  "spell.druid.spiky_vines.name": "Spiky Vines",
+  "spell.druid.spiky_vines.description": "Summon poisonous vines in the area before the caster dealing up to {damage} spell damage for second poisoning the target, stronger the spell power stronger the poison",
+
+
+  "itemGroup.druid.druids": "Druids"
+}

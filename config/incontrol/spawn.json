@@ -1,0 +1,298 @@
+[
+  {
+    "mob": "eidolon:zombie_brute",
+    "biome": "twilightforest:dark_forest",
+    "random": 0.7,
+    "result": "default"
+  },
+  {
+    "mob": "eidolon:zombie_brute",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "biome": "twilightforest:dark_forest",
+    "random": 0.7,
+    "result": "default" 
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "result": "deny"
+  },
+  {
+    "mob": "totemic:bald_eagle",
+    "biome": "twilightforest:oak_savannah",
+    "random": 0.5,
+    "result": "default" 
+  },
+  {
+    "mob": "totemic:bald_eagle",
+    "result": "deny"
+  },
+  {
+    "mob": "primal:crocodile",
+    "biome": "twilightforest:swamp",
+    "random": 0.7,
+    "result": "default" 
+  },
+  {
+    "mob": "primal:crocodile",
+    "result": "deny"
+  },
+  {
+    "mob": "totemic:buffalo",
+    "biome": "twilightforest:oak_savannah",
+    "random": 0.7,
+    "result": "default" 
+  },
+  {
+    "mob": "totemic:buffalo",
+    "result": "deny"
+  },
+   {
+    "mob": "species:leaf_hanger",
+    "biome": "twilightforest:swamp",
+    "random": 0.5,
+    "result": "default" 
+  },
+  {
+    "mob": "species:leaf_hanger",
+    "result": "deny"
+  },
+    {
+    "mob": "species:cliff_hanger",
+    "structure": "twilightforest:troll_cave",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.25,
+    "result": "default" 
+  },
+  {
+    "mob": "species:cliff_hanger",
+    "result": "deny"
+  },
+     {
+    "mob": "species:wicked",
+    "biome": "twilightforest:dark_forest",
+    "random": 0.4,
+    "result": "default" 
+  },
+  {
+    "mob": "species:wicked",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime",
+    "biome": "twilightforest:clearing",
+    "random": 0.5,
+    "result": "default" 
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime_small",
+    "biome": "twilightforest:clearing",
+    "random": 0.5,
+    "result": "default" 
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime_small",
+    "result": "deny"
+  },
+{
+  "mob": "creatures_of_petrichor:shroomin",
+  "biome": ["twilightforest:mushroom_forest", "twilightforest:dense_mushroom_forest"],
+  "random": 0.5,
+  "result": "default" 
+},
+  {
+    "mob": "creatures_of_petrichor:shroomin",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:direwolf",
+    "biome": "twilightforest:dark_forest",
+    "random": 0.7,
+    "result": "default"
+  },
+  {
+    "mob": "creatures_of_petrichor:direwolf",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:will_o_wisp",
+    "biome": "twilightforest:dark_forest",
+    "random": 0.15,
+    "result": "default"
+  },
+  {
+    "mob": "creatures_of_petrichor:will_o_wisp",
+    "result": "deny"
+  },
+    {
+    "mob": "creatures_of_petrichor:specter",
+    "structure": "twilightforest:knight_strongold",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.25,
+    "result": "default"
+  },
+  {
+    "mob": "creatures_of_petrichor:specter",
+    "result": "deny"
+  },
+ {
+    "mob": "creatures_of_petrichor:will_o_wisp",
+    "result": "deny"
+  },
+    {
+    "mob": "species:treeper",
+    "biome": "twilightforest:highlands",
+    "random": 0.1,
+    "result": "default"
+  },
+  {
+    "mob": "species:treeper",
+    "result": "deny"
+  },
+    {
+    "mob": "species:quake",
+    "structure": "twilightforest:dark_tower",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.1,
+    "result": "default"
+  },
+  {
+    "mob": "species:quake",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:sprite",
+    "biome": ["twilightforest:forest", "twilightforest:dense_forest"],
+    "random": 0.2,
+    "result": "default"
+  },
+  {
+    "mob": "creatures_of_petrichor:sprite",
+    "result": "deny"
+  },
+ {
+    "mob": "cataclysm:draugr",
+    "structure": "twilightforest:aurora_palace",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.25,
+    "result": "default"
+  },
+  {
+    "mob": "cataclysm:draugr",
+    "result": "deny"
+  },
+ {
+    "mob": "cataclysm:elite_draugr",
+    "structure": "twilightforest:aurora_palace",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.20,
+    "result": "default"
+  },
+  {
+    "mob": "cataclysm:elite_draugr",
+    "result": "deny"
+  },
+ {
+    "mob": "cataclysm:royal_draugr",
+    "structure": "twilightforest:aurora_palace",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.15,
+    "result": "default"
+  },
+  {
+    "mob": "cataclysm:royal_draugr",
+    "result": "deny"
+  },
+ {
+    "mob": "cataclysm:aptrgangr",
+    "structure": "twilightforest:aurora_palace",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.10,
+    "result": "default"
+  },
+  {
+    "mob": "cataclysm:aptrgangr",
+    "result": "deny"
+  },
+ {
+    "mob": "arkane_domains:gargoyle_entity",
+    "structure": "twilightforest:aurora_palace",
+    "dimension": "twilightforest:twilight_forest",
+    "random": 0.20,
+    "result": "default"
+  },
+  {
+    "mob": "arkane_domains:gargoyle_entity",
+    "result": "deny"
+  },
+ {
+    "mob": "arkane_domains:ice_bound",
+    "biome": "twilightforest:snowy_forest",
+    "random": 0.20,
+    "result": "default"
+  },
+  {
+    "mob": "arkane_domains:ice_bound",
+    "result": "deny"
+  },
+  {
+    "mob": "species:stackatick",
+    "biome": "twilightforest:oak_savannah",
+    "random": 0.2,
+    "result": "default" 
+  },
+  {
+    "mob": "species:stackatick",
+    "result": "deny"
+  },
+
+
+
+
+  {
+    "mob": "creatures_of_petrichor:boulder_spirit",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:cursed_doll",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:death_knell",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:fallen_star",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:nameless",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:shade",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:wandering_lantern",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:vengeful_gravestone",
+    "result": "deny"
+  },
+  {
+    "mob": "creatures_of_petrichor:haunt",
+    "result": "deny"
+  },
+  {
+    "mob": "twilightforest:mist_wolf",
+    "result": "deny"
+  }
+]

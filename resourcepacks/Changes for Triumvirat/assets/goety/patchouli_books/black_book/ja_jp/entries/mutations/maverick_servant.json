@@ -1,0 +1,21 @@
+{
+  "name": "マーヴェリックの従者",
+  "icon": "minecraft:iron_sword",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/craft_unholy_robe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "マーヴェリックはネザーに深く帰依しているようで、同じようにネザーに深く帰依している者のみに従う。しかし、泣く黒曜石のブロックの下にある商人の近くで反神聖のセットを着用すると、新たに改宗したマーヴェリックはあなたをネザーの支配者とみなし、あなたの命令に従うようになる。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:maverick_servant",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "マーヴェリックの従者にエメラルドを渡すことで、適切な服装をしなくても取引を行うことができます。また、他のマーヴェリックの従者とも取引可能です。ただし、その従者に主がいる場合は、その主と同盟を結び、適切な服装をしていれば可能です。"
+    }
+  ]
+}

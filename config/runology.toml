@@ -1,0 +1,5 @@
+
+[destructivePotential]
+	#Should Stabilized Shatters spread the shatter realm?
+	stabilizedShatterSpreads = true
+

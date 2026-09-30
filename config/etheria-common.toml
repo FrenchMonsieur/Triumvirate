@@ -1,0 +1,7 @@
+
+[General]
+	#Give MageMicon book on first join
+	give_magemicon_on_start = false
+	#A straight spell damage modifier that increases the final damage.
+	spells_modifier = 1.0
+

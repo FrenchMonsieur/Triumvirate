@@ -1,0 +1,425 @@
+[
+  {
+    "mob": "eidolon:zombie_brute",
+    "persecond": 0.25,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "minecraft:wither_skeleton",
+    "persecond": 0.25,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "totemic:bald_eagle",
+    "persecond": 0.15,
+    "attempts": 2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 6,
+      "maxheight": 12,
+      "maxlocal": 20
+    }
+  },
+  {
+    "mob": "primal:crocodile",
+    "persecond": 0.25,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -1,
+      "maxheight": 4,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "totemic:buffalo",
+    "persecond": 0.20,
+    "attempts": 2,
+    "amount": {
+      "minimum": 4,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 6,
+      "maxheight": 12,
+      "maxlocal": 20
+    }
+  },
+    {
+    "mob": "species:leaf_hanger",
+    "persecond": 0.20,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -8,
+      "maxheight": -3,
+      "maxlocal": 10
+    }
+  },
+    {
+    "mob": "species:cliff_hanger",
+    "persecond": 0.20,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -24,
+      "maxheight": -18,
+      "maxlocal": 10
+    }
+  },
+     {
+    "mob": "species:wicked",
+    "persecond": 0.20,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime",
+    "persecond": 0.20,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 6,
+      "maxlocal": 5
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:meadow_slime_small",
+    "persecond": 0.20,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 6,
+      "maxlocal": 5
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:shroomin",
+    "persecond": 0.25,
+    "attempts": 2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:direwolf",
+    "persecond": 0.25,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:will_o_wisp",
+    "persecond": 0.10,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "creatures_of_petrichor:specter",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -26,
+      "maxheight": -5,
+      "maxlocal": 10
+    }
+  },
+    {
+    "mob": "creatures_of_petrichor:will_o_wisp",
+    "persecond": 0.10,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "species:treeper",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 23,
+      "maxheight": 26,
+      "maxlocal": 5
+    }
+  },
+  {
+    "mob": "species:quake",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 4,
+      "maxheight": 76,
+      "maxlocal": 10
+    }
+  },
+    {
+    "mob": "creatures_of_petrichor:sprite",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "maxlocal": 20
+    }
+  },
+  {
+    "mob": "cataclysm:draugr",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 41,
+      "maxheight": 151,
+      "maxlocal": 15
+    }
+  },
+  {
+    "mob": "cataclysm:royal_draugr",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 70,
+      "maxheight": 151,
+      "maxlocal": 12
+    }
+  },
+  {
+    "mob": "cataclysm:elite_draugr",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 41,
+      "maxheight": 151,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "cataclysm:aptrgangr",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 110,
+      "maxheight": 151,
+      "maxlocal": 5
+    }
+  },
+  {
+    "mob": "arkane_domains:gargoyle_entity",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 41,
+      "maxheight": 151,
+      "maxlocal": 15
+    }
+  },
+   {
+    "mob": "arkane_domains:ice_bound",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": -3,
+      "maxheight": 8,
+      "maxlocal": 10
+    }
+  },
+  {
+    "mob": "species:stackatick",
+    "persecond": 0.15,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "mindist": 24,
+      "maxdist": 120,
+      "minheight": 6,
+      "maxheight": 12,
+      "maxlocal": 10
+    }
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "whisperwoods:hirschgeist_skull": [
+    { "attribute": "minecraft:generic.armor", "value": 5, "operation": "BASE" },
+    { "attribute": "minecraft:generic.max_health", "value": 10, "operation": "BASE" },
+    { "attribute": "minecraft:generic.movement_speed", "value": 0.02, "operation": "ADDITION"},
+    { "slot": "head"}
+  ],
+
+  "berserker_rpg:iron_berserker_axe": [
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" }
+  ],
+
+  "berserker_rpg:netherite_northling_head": [
+    { "attribute": "minecraft:generic.armor", "value": 2.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "head"}
+  ],
+
+   "berserker_rpg:netherite_northling_chest": [
+    { "attribute": "minecraft:generic.armor", "value": 6.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "chest"}
+  ],
+
+    "berserker_rpg:netherite_northling_legs": [
+    { "attribute": "minecraft:generic.armor", "value": 5.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "legs"}
+  ],
+
+    "berserker_rpg:netherite_northling_feet": [
+    { "attribute": "minecraft:generic.armor", "value": 2.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "feet"}
+  ],
+
+    "berserker_rpg:northling_head": [
+    { "attribute": "minecraft:generic.armor", "value": 2.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "head"}
+  ],
+
+   "berserker_rpg:northling_chest": [
+    { "attribute": "minecraft:generic.armor", "value": 5.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "chest"}
+  ],
+
+    "berserker_rpg:northling_legs": [
+    { "attribute": "minecraft:generic.armor", "value": 3.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "legs"}
+  ],
+
+    "berserker_rpg:northling_feet": [
+    { "attribute": "minecraft:generic.armor", "value": 2.0, "operation": "BASE" },
+    { "attribute": "minecraft:generic.attack_speed", "value": 0, "operation": "BASE" },
+    { "attribute": "more_rpg_classes:rage_modifier", "value": 0, "operation": "BASE" },
+    { "slot": "feet"}
+  ],
+    "druid:druids_armor_t2_head": [
+    { "attribute": "minecraft:generic.armor", "value": 1.0, "operation": "BASE" },
+    { "attribute": "spell_power:haste", "value": 0, "operation": "BASE" },
+    { "attribute": "spell_power:nature_element", "value": 0, "operation": "BASE" },
+    { "attribute": "attributeslib:mining_speed", "value": 0.02, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "head"}
+  ],
+
+   "druid:druids_armor_t2_chest": [
+    { "attribute": "minecraft:generic.armor", "value": 4.0, "operation": "BASE" },
+    { "attribute": "spell_power:haste", "value": 0, "operation": "BASE" },
+    { "attribute": "spell_power:nature_element", "value": 0, "operation": "BASE" },
+    { "attribute": "attributeslib:mining_speed", "value": 0.02, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "chest"}
+  ],
+
+    "druid:druids_armor_t2_legs": [
+    { "attribute": "minecraft:generic.armor", "value": 3.0, "operation": "BASE" },
+    { "attribute": "spell_power:haste", "value": 0, "operation": "BASE" },
+    { "attribute": "spell_power:nature_element", "value": 0, "operation": "BASE" },
+    { "attribute": "attributeslib:mining_speed", "value": 0.02, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "legs"}
+  ],
+
+    "druid:druids_armor_t2_feet": [
+    { "attribute": "minecraft:generic.armor", "value": 2.0, "operation": "BASE" },
+    { "attribute": "spell_power:haste", "value": 0, "operation": "BASE" },
+    { "attribute": "spell_power:nature_element", "value": 0, "operation": "BASE" },
+    { "attribute": "attributeslib:mining_speed", "value": 0.02, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "feet"}
+  ],
+    "rootsclassic:wildwood_mask": [
+    { "attribute": "attributeslib:mining_speed", "value": 0.05, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "head"}
+  ],
+
+   "rootsclassic:wildwood_plate": [
+    { "attribute": "attributeslib:mining_speed", "value": 0.05, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "chest"}
+  ],
+
+    "rootsclassic:wildwood_leggings": [
+    { "attribute": "attributeslib:mining_speed", "value": 0.05, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "legs"}
+  ],
+
+    "rootsclassic:wildwood_boots": [
+    { "attribute": "attributeslib:mining_speed", "value": 0.05, "operation": "MULTIPLY_TOTAL" },
+    { "slot": "feet"}
+  ]
+}

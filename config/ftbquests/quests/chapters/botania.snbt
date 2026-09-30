@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "4C3F8330F95D1BC7"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "1B57F00195673CCD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F9B44B9FF9ED3CC"]
+			description: ["Hail &2Botanist&r,"]
+			hide_until_deps_complete: true
+			id: "687A1499FDDE0978"
+			subtitle: "Cause you need one"
+			tasks: [{
+				id: "21E367ECAB30A0E5"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["687A1499FDDE0978"]
+			icon: "twilightforest:canopy_sapling"
+			id: "2011FA9BA92AC7DF"
+			tasks: [{
+				biome: "twilightforest:forest"
+				id: "766E533F1D195C43"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Botanism"
+}

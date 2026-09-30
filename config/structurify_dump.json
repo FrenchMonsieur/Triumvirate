@@ -1,0 +1,3285 @@
+{
+  "config_version": "2.0.25",
+  "config_datetime": "2026-05-21_16-28-21",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "aquamirae",
+      "is_disabled": false
+    },
+    {
+      "name": "arkane_domains",
+      "is_disabled": false
+    },
+    {
+      "name": "bakery",
+      "is_disabled": false
+    },
+    {
+      "name": "beachparty",
+      "is_disabled": false
+    },
+    {
+      "name": "betteroceanmonuments",
+      "is_disabled": false
+    },
+    {
+      "name": "cataclysm",
+      "is_disabled": false
+    },
+    {
+      "name": "eidolon",
+      "is_disabled": false
+    },
+    {
+      "name": "embers",
+      "is_disabled": false
+    },
+    {
+      "name": "forbidden_arcanus",
+      "is_disabled": false
+    },
+    {
+      "name": "global",
+      "is_disabled": false
+    },
+    {
+      "name": "goety",
+      "is_disabled": false
+    },
+    {
+      "name": "herios_floral_expansion",
+      "is_disabled": false
+    },
+    {
+      "name": "hexerei",
+      "is_disabled": false
+    },
+    {
+      "name": "kismet",
+      "is_disabled": false
+    },
+    {
+      "name": "minecraft",
+      "is_disabled": false
+    },
+    {
+      "name": "queen_bee",
+      "is_disabled": false
+    },
+    {
+      "name": "ribbits",
+      "is_disabled": false
+    },
+    {
+      "name": "snowyspirit",
+      "is_disabled": false
+    },
+    {
+      "name": "species",
+      "is_disabled": false
+    },
+    {
+      "name": "supplementaries",
+      "is_disabled": false
+    },
+    {
+      "name": "twilightforest",
+      "is_disabled": false
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:ancient_city"
+    },
+    {
+      "name": "minecraft:bastion_remnant"
+    },
+    {
+      "name": "minecraft:buried_treasure"
+    },
+    {
+      "name": "minecraft:desert_pyramid"
+    },
+    {
+      "name": "minecraft:end_city"
+    },
+    {
+      "name": "minecraft:fortress"
+    },
+    {
+      "name": "minecraft:igloo"
+    },
+    {
+      "name": "minecraft:jungle_pyramid"
+    },
+    {
+      "name": "minecraft:mansion"
+    },
+    {
+      "name": "minecraft:mineshaft"
+    },
+    {
+      "name": "minecraft:mineshaft_mesa"
+    },
+    {
+      "name": "minecraft:monument"
+    },
+    {
+      "name": "minecraft:nether_fossil"
+    },
+    {
+      "name": "minecraft:ocean_ruin_cold"
+    },
+    {
+      "name": "minecraft:ocean_ruin_warm"
+    },
+    {
+      "name": "minecraft:pillager_outpost"
+    },
+    {
+      "name": "minecraft:ruined_portal"
+    },
+    {
+      "name": "minecraft:ruined_portal_desert"
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle"
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain"
+    },
+    {
+      "name": "minecraft:ruined_portal_nether"
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean"
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp"
+    },
+    {
+      "name": "minecraft:shipwreck"
+    },
+    {
+      "name": "minecraft:shipwreck_beached"
+    },
+    {
+      "name": "minecraft:stronghold"
+    },
+    {
+      "name": "minecraft:swamp_hut"
+    },
+    {
+      "name": "minecraft:trail_ruins"
+    },
+    {
+      "name": "minecraft:village_desert"
+    },
+    {
+      "name": "minecraft:village_plains"
+    },
+    {
+      "name": "minecraft:village_savanna"
+    },
+    {
+      "name": "minecraft:village_snowy"
+    },
+    {
+      "name": "minecraft:village_taiga"
+    },
+    {
+      "name": "aquamirae:outpost"
+    },
+    {
+      "name": "aquamirae:shelter"
+    },
+    {
+      "name": "aquamirae:ship"
+    },
+    {
+      "name": "aquamirae:surface/arch"
+    },
+    {
+      "name": "aquamirae:surface/spiral"
+    },
+    {
+      "name": "arkane_domains:druid_hut"
+    },
+    {
+      "name": "arkane_domains:shaman_hut"
+    },
+    {
+      "name": "arkane_domains:temple"
+    },
+    {
+      "name": "arkane_domains:warlock_toer"
+    },
+    {
+      "name": "bakery:bakery"
+    },
+    {
+      "name": "bakery:oat_field"
+    },
+    {
+      "name": "beachparty:beach_hut"
+    },
+    {
+      "name": "beachparty:excavated_treasure"
+    },
+    {
+      "name": "beachparty:ritual_circle"
+    },
+    {
+      "name": "betteroceanmonuments:ocean_monument"
+    },
+    {
+      "name": "cataclysm:abandoned_spire"
+    },
+    {
+      "name": "cataclysm:abandoned_temple"
+    },
+    {
+      "name": "cataclysm:abandoned_village"
+    },
+    {
+      "name": "cataclysm:acropolis"
+    },
+    {
+      "name": "cataclysm:amethyst_nest"
+    },
+    {
+      "name": "cataclysm:ancient_factory"
+    },
+    {
+      "name": "cataclysm:burning_arena"
+    },
+    {
+      "name": "cataclysm:cursed_pyramid"
+    },
+    {
+      "name": "cataclysm:desert_occupied_village"
+    },
+    {
+      "name": "cataclysm:desert_site"
+    },
+    {
+      "name": "cataclysm:frosted_prison"
+    },
+    {
+      "name": "cataclysm:ruined_citadel"
+    },
+    {
+      "name": "cataclysm:soul_black_smith"
+    },
+    {
+      "name": "cataclysm:sunken_city"
+    },
+    {
+      "name": "eidolon:catacomb"
+    },
+    {
+      "name": "eidolon:lab"
+    },
+    {
+      "name": "eidolon:stray_tower"
+    },
+    {
+      "name": "embers:small_ruin"
+    },
+    {
+      "name": "forbidden_arcanus:nipa"
+    },
+    {
+      "name": "forbidden_arcanus:nipa_floating"
+    },
+    {
+      "name": "goety:black_assembly"
+    },
+    {
+      "name": "goety:blighted_shack"
+    },
+    {
+      "name": "goety:buried_ritual"
+    },
+    {
+      "name": "goety:crypt"
+    },
+    {
+      "name": "goety:dark_manor"
+    },
+    {
+      "name": "goety:final_terminal"
+    },
+    {
+      "name": "goety:graveyard"
+    },
+    {
+      "name": "goety:mangrove_tower"
+    },
+    {
+      "name": "goety:ominous_blacksmith"
+    },
+    {
+      "name": "goety:ruined_monastery"
+    },
+    {
+      "name": "goety:secluded_igloo"
+    },
+    {
+      "name": "goety:sorcerous_keep"
+    },
+    {
+      "name": "goety:spider_den"
+    },
+    {
+      "name": "goety:wind_shrine"
+    },
+    {
+      "name": "herios_floral_expansion:bloom_ruins_1"
+    },
+    {
+      "name": "herios_floral_expansion:bloom_ruins_2"
+    },
+    {
+      "name": "herios_floral_expansion:bloom_ruins_3"
+    },
+    {
+      "name": "herios_floral_expansion:titan_bloom"
+    },
+    {
+      "name": "hexerei:baba_yaga_hut"
+    },
+    {
+      "name": "hexerei:dark_coven"
+    },
+    {
+      "name": "hexerei:nature_coven"
+    },
+    {
+      "name": "hexerei:owl_post_office"
+    },
+    {
+      "name": "hexerei:witch_hut"
+    },
+    {
+      "name": "kismet:kismet_structure"
+    },
+    {
+      "name": "queen_bee:beehive"
+    },
+    {
+      "name": "ribbits:ribbit_village"
+    },
+    {
+      "name": "snowyspirit:gingerbread_house"
+    },
+    {
+      "name": "species:libra"
+    },
+    {
+      "name": "species:paleontology_dig_site"
+    },
+    {
+      "name": "species:spectralibur_chamber"
+    },
+    {
+      "name": "species:wraptor_coop"
+    },
+    {
+      "name": "supplementaries:way_sign"
+    },
+    {
+      "name": "twilightforest:aurora_palace"
+    },
+    {
+      "name": "twilightforest:dark_tower"
+    },
+    {
+      "name": "twilightforest:final_castle"
+    },
+    {
+      "name": "twilightforest:hedge_maze"
+    },
+    {
+      "name": "twilightforest:hydra_lair"
+    },
+    {
+      "name": "twilightforest:knight_stronghold"
+    },
+    {
+      "name": "twilightforest:labyrinth"
+    },
+    {
+      "name": "twilightforest:large_hollow_hill"
+    },
+    {
+      "name": "twilightforest:lich_tower"
+    },
+    {
+      "name": "twilightforest:medium_hollow_hill"
+    },
+    {
+      "name": "twilightforest:mushroom_tower"
+    },
+    {
+      "name": "twilightforest:naga_courtyard"
+    },
+    {
+      "name": "twilightforest:quest_grove"
+    },
+    {
+      "name": "twilightforest:small_hollow_hill"
+    },
+    {
+      "name": "twilightforest:troll_cave"
+    },
+    {
+      "name": "twilightforest:yeti_cave"
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 18,
+      "separation": 10,
+      "name": "aquamirae:outpost",
+      "is_disabled": false,
+      "salt": 701829589,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:outpost": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 20,
+      "name": "aquamirae:shelter",
+      "is_disabled": false,
+      "salt": 901831489,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:shelter": 1
+      }
+    },
+    {
+      "spacing": 25,
+      "separation": 10,
+      "name": "aquamirae:ship",
+      "is_disabled": false,
+      "salt": 801831489,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:ship": 1
+      }
+    },
+    {
+      "name": "aquamirae:surface",
+      "is_disabled": false,
+      "salt": 601831488,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "aquamirae:surface/spiral": 33,
+        "aquamirae:surface/arch": 66
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 26,
+      "name": "arkane_domains:druid_hut",
+      "is_disabled": false,
+      "salt": 1943267191,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "arkane_domains:druid_hut": 1
+      }
+    },
+    {
+      "spacing": 28,
+      "separation": 25,
+      "name": "arkane_domains:shaman_hut",
+      "is_disabled": false,
+      "salt": 1324619371,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "arkane_domains:shaman_hut": 1
+      }
+    },
+    {
+      "spacing": 31,
+      "separation": 28,
+      "name": "arkane_domains:temple",
+      "is_disabled": false,
+      "salt": 567394136,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "arkane_domains:temple": 1
+      }
+    },
+    {
+      "spacing": 8,
+      "separation": 7,
+      "name": "arkane_domains:warlock_toer",
+      "is_disabled": false,
+      "salt": 314286603,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "arkane_domains:warlock_toer": 1
+      }
+    },
+    {
+      "spacing": 128,
+      "separation": 64,
+      "name": "bakery:bakery",
+      "is_disabled": false,
+      "salt": 246813,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "bakery:bakery": 1
+      }
+    },
+    {
+      "spacing": 136,
+      "separation": 60,
+      "name": "bakery:oat_field",
+      "is_disabled": false,
+      "salt": 678912,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "bakery:oat_field": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 2,
+      "name": "beachparty:beach_hut",
+      "is_disabled": false,
+      "salt": 1152883398,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "beachparty:beach_hut": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 2,
+      "name": "beachparty:excavated_treasure",
+      "is_disabled": false,
+      "salt": 1458759643,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "beachparty:excavated_treasure": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 2,
+      "name": "beachparty:ritual_circle",
+      "is_disabled": false,
+      "salt": 2147483629,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "beachparty:ritual_circle": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 20,
+      "name": "betteroceanmonuments:ocean_monument",
+      "is_disabled": false,
+      "salt": 784827271,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "betteroceanmonuments:ocean_monument": 1
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 20,
+      "name": "cataclysm:abandoned_structures",
+      "is_disabled": false,
+      "salt": 514659267,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:abandoned_temple": 1,
+        "cataclysm:abandoned_spire": 1,
+        "cataclysm:abandoned_village": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 50,
+      "name": "cataclysm:acropolis",
+      "is_disabled": false,
+      "salt": 913530101,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:acropolis": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "cataclysm:amethyst_nest",
+      "is_disabled": false,
+      "salt": 14325760,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:amethyst_nest": 1
+      }
+    },
+    {
+      "spacing": 112,
+      "separation": 70,
+      "name": "cataclysm:ancient_factory",
+      "is_disabled": false,
+      "salt": 319514301,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:ancient_factory": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 50,
+      "name": "cataclysm:burning_arena",
+      "is_disabled": false,
+      "salt": 533522197,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:burning_arena": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 50,
+      "name": "cataclysm:cursed_pyramid",
+      "is_disabled": false,
+      "salt": 577299997,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:cursed_pyramid": 1
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 20,
+      "name": "cataclysm:desert_structures",
+      "is_disabled": false,
+      "salt": 31547671,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:desert_occupied_village": 1,
+        "cataclysm:desert_site": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 50,
+      "name": "cataclysm:frosted_prison",
+      "is_disabled": false,
+      "salt": 1577172143,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:frosted_prison": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 25,
+      "name": "cataclysm:ruined_citadel",
+      "is_disabled": false,
+      "salt": 367895146,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:ruined_citadel": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 50,
+      "name": "cataclysm:soul_black_smith",
+      "is_disabled": false,
+      "salt": 1984567320,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:soul_black_smith": 1
+      }
+    },
+    {
+      "spacing": 100,
+      "separation": 70,
+      "name": "cataclysm:sunken_city",
+      "is_disabled": false,
+      "salt": 1673928450,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "cataclysm:sunken_city": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 40,
+      "name": "eidolon:catacomb",
+      "is_disabled": false,
+      "salt": 12512867,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "eidolon:catacomb": 3
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "eidolon:lab",
+      "is_disabled": false,
+      "salt": 1768062476,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "eidolon:lab": 1
+      }
+    },
+    {
+      "spacing": 24,
+      "separation": 18,
+      "name": "eidolon:stray_tower",
+      "is_disabled": false,
+      "salt": 632767650,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "eidolon:stray_tower": 1
+      }
+    },
+    {
+      "spacing": 7,
+      "separation": 1,
+      "name": "embers:small_ruin",
+      "is_disabled": false,
+      "salt": 193826405,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "embers:small_ruin": 1
+      }
+    },
+    {
+      "spacing": 35,
+      "separation": 8,
+      "name": "forbidden_arcanus:nipas",
+      "is_disabled": false,
+      "salt": 710359251,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "forbidden_arcanus:nipa": 1,
+        "forbidden_arcanus:nipa_floating": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:black_assembly",
+      "is_disabled": false,
+      "salt": 1987656789,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:black_assembly": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:blighted_shack",
+      "is_disabled": false,
+      "salt": 1765432345,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:blighted_shack": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "goety:buried_ritual",
+      "is_disabled": false,
+      "salt": 1432101234,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:buried_ritual": 1
+      }
+    },
+    {
+      "spacing": 120,
+      "separation": 40,
+      "name": "goety:crypt",
+      "is_disabled": false,
+      "salt": 1876543456,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:crypt": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:dark_manor",
+      "is_disabled": false,
+      "salt": 1543212345,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:dark_manor": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 40,
+      "name": "goety:final_terminal",
+      "is_disabled": false,
+      "salt": 246808642,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:final_terminal": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "goety:graveyard",
+      "is_disabled": false,
+      "salt": 1102102011,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:graveyard": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "goety:mangrove_tower",
+      "is_disabled": false,
+      "salt": 1654323456,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:mangrove_tower": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:ominous_blacksmith",
+      "is_disabled": false,
+      "salt": 1246886421,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:ominous_blacksmith": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 10,
+      "name": "goety:ruined_monastery",
+      "is_disabled": false,
+      "salt": 8998465,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:ruined_monastery": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "goety:secluded_igloo",
+      "is_disabled": false,
+      "salt": 1012101201,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:secluded_igloo": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:sorcerous_keep",
+      "is_disabled": false,
+      "salt": 1242681785,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:sorcerous_keep": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:spider_den",
+      "is_disabled": false,
+      "salt": 1357997531,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:spider_den": 1
+      }
+    },
+    {
+      "spacing": 60,
+      "separation": 20,
+      "name": "goety:wind_shrine",
+      "is_disabled": false,
+      "salt": 1321010123,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "goety:wind_shrine": 1
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 15,
+      "name": "herios_floral_expansion:bloom_ruins_1",
+      "is_disabled": false,
+      "salt": 802566451,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "herios_floral_expansion:bloom_ruins_1": 1
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 15,
+      "name": "herios_floral_expansion:bloom_ruins_2",
+      "is_disabled": false,
+      "salt": 803143575,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "herios_floral_expansion:bloom_ruins_2": 1
+      }
+    },
+    {
+      "spacing": 30,
+      "separation": 15,
+      "name": "herios_floral_expansion:bloom_ruins_3",
+      "is_disabled": false,
+      "salt": 802951200,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "herios_floral_expansion:bloom_ruins_3": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 25,
+      "name": "herios_floral_expansion:titan_bloom",
+      "is_disabled": false,
+      "salt": 1864443099,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "herios_floral_expansion:titan_bloom": 1
+      }
+    },
+    {
+      "spacing": 100,
+      "separation": 95,
+      "name": "hexerei:baba_yaga_hut",
+      "is_disabled": false,
+      "salt": 2860638,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hexerei:baba_yaga_hut": 1
+      }
+    },
+    {
+      "spacing": 29,
+      "separation": 11,
+      "name": "hexerei:dark_coven",
+      "is_disabled": false,
+      "salt": 2124767140,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hexerei:dark_coven": 1
+      }
+    },
+    {
+      "spacing": 29,
+      "separation": 11,
+      "name": "hexerei:nature_coven",
+      "is_disabled": false,
+      "salt": 140967140,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hexerei:nature_coven": 1
+      }
+    },
+    {
+      "spacing": 21,
+      "separation": 12,
+      "name": "hexerei:owl_post_office",
+      "is_disabled": false,
+      "salt": 8675309,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hexerei:owl_post_office": 1
+      }
+    },
+    {
+      "spacing": 20,
+      "separation": 8,
+      "name": "hexerei:witch_hut",
+      "is_disabled": false,
+      "salt": 1297727188,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hexerei:witch_hut": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 10,
+      "name": "kismet:kismet_structure",
+      "is_disabled": false,
+      "salt": 1272244448,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "kismet:kismet_structure": 1
+      }
+    },
+    {
+      "spacing": 24,
+      "separation": 8,
+      "name": "minecraft:ancient_cities",
+      "is_disabled": false,
+      "salt": 20083232,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ancient_city": 1
+      }
+    },
+    {
+      "name": "minecraft:buried_treasures",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 0.01,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:buried_treasure": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:desert_pyramids",
+      "is_disabled": false,
+      "salt": 14357617,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:desert_pyramid": 1
+      }
+    },
+    {
+      "spacing": 20,
+      "separation": 11,
+      "name": "minecraft:end_cities",
+      "is_disabled": false,
+      "salt": 10387313,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:end_city": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:igloos",
+      "is_disabled": false,
+      "salt": 14357618,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:igloo": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:jungle_temples",
+      "is_disabled": false,
+      "salt": 14357619,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:jungle_pyramid": 1
+      }
+    },
+    {
+      "name": "minecraft:mineshafts",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 0.004,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:mineshaft": 1,
+        "minecraft:mineshaft_mesa": 1
+      }
+    },
+    {
+      "spacing": 27,
+      "separation": 4,
+      "name": "minecraft:nether_complexes",
+      "is_disabled": false,
+      "salt": 30084232,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:bastion_remnant": 3,
+        "minecraft:fortress": 2
+      }
+    },
+    {
+      "spacing": 2,
+      "separation": 1,
+      "name": "minecraft:nether_fossils",
+      "is_disabled": false,
+      "salt": 14357921,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:nether_fossil": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 5,
+      "name": "minecraft:ocean_monuments",
+      "is_disabled": false,
+      "salt": 10387313,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:monument": 1
+      }
+    },
+    {
+      "spacing": 20,
+      "separation": 8,
+      "name": "minecraft:ocean_ruins",
+      "is_disabled": false,
+      "salt": 14357621,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ocean_ruin_warm": 1,
+        "minecraft:ocean_ruin_cold": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:pillager_outposts",
+      "is_disabled": false,
+      "salt": 165745296,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:pillager_outpost": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 15,
+      "name": "minecraft:ruined_portals",
+      "is_disabled": false,
+      "salt": 34222645,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ruined_portal": 1,
+        "minecraft:ruined_portal_nether": 1,
+        "minecraft:ruined_portal_swamp": 1,
+        "minecraft:ruined_portal_mountain": 1,
+        "minecraft:ruined_portal_jungle": 1,
+        "minecraft:ruined_portal_ocean": 1,
+        "minecraft:ruined_portal_desert": 1
+      }
+    },
+    {
+      "spacing": 24,
+      "separation": 4,
+      "name": "minecraft:shipwrecks",
+      "is_disabled": false,
+      "salt": 165745295,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:shipwreck_beached": 1,
+        "minecraft:shipwreck": 1
+      }
+    },
+    {
+      "name": "minecraft:strongholds",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:stronghold": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "minecraft:swamp_huts",
+      "is_disabled": false,
+      "salt": 14357620,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:swamp_hut": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "minecraft:trail_ruins",
+      "is_disabled": false,
+      "salt": 83469867,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:trail_ruins": 1
+      }
+    },
+    {
+      "spacing": 34,
+      "separation": 8,
+      "name": "minecraft:villages",
+      "is_disabled": false,
+      "salt": 10387312,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:village_snowy": 1,
+        "minecraft:village_plains": 1,
+        "minecraft:village_taiga": 1,
+        "minecraft:village_savanna": 1,
+        "minecraft:village_desert": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 20,
+      "name": "minecraft:woodland_mansions",
+      "is_disabled": false,
+      "salt": 10387319,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:mansion": 1
+      }
+    },
+    {
+      "spacing": 35,
+      "separation": 12,
+      "name": "queen_bee:beehive",
+      "is_disabled": false,
+      "salt": 1644336879,
+      "frequency": 0.15,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "queen_bee:beehive": 1
+      }
+    },
+    {
+      "spacing": 25,
+      "separation": 8,
+      "name": "ribbits:ribbit_village",
+      "is_disabled": false,
+      "salt": 2937541,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "ribbits:ribbit_village": 1
+      }
+    },
+    {
+      "spacing": 35,
+      "separation": 24,
+      "name": "snowyspirit:gingerbread_house",
+      "is_disabled": false,
+      "salt": 784921483,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "snowyspirit:gingerbread_house": 1
+      }
+    },
+    {
+      "spacing": 64,
+      "separation": 16,
+      "name": "species:libra",
+      "is_disabled": false,
+      "salt": 165745296,
+      "frequency": 0.3,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "species:libra": 1
+      }
+    },
+    {
+      "spacing": 10,
+      "separation": 5,
+      "name": "species:paleontology_dig_site",
+      "is_disabled": false,
+      "salt": 867700449,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "species:paleontology_dig_site": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 15,
+      "name": "species:spectralibur_chamber",
+      "is_disabled": false,
+      "salt": 12345678,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "species:spectralibur_chamber": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 8,
+      "name": "species:wraptor_coops",
+      "is_disabled": false,
+      "salt": 867700449,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "species:wraptor_coop": 1
+      }
+    },
+    {
+      "spacing": 19,
+      "separation": 10,
+      "name": "supplementaries:way_signs",
+      "is_disabled": false,
+      "salt": 431041527,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "supplementaries:way_sign": 1
+      }
+    },
+    {
+      "name": "twilightforest:aurora_palace",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:aurora_palace": 1
+      }
+    },
+    {
+      "name": "twilightforest:dark_tower",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:dark_tower": 1
+      }
+    },
+    {
+      "name": "twilightforest:final_castle",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:final_castle": 1
+      }
+    },
+    {
+      "name": "twilightforest:hedge_maze",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:hedge_maze": 1
+      }
+    },
+    {
+      "name": "twilightforest:hydra_lair",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:hydra_lair": 1
+      }
+    },
+    {
+      "name": "twilightforest:knight_stronghold",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:knight_stronghold": 1
+      }
+    },
+    {
+      "name": "twilightforest:labyrinth",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:labyrinth": 1
+      }
+    },
+    {
+      "name": "twilightforest:large_hollow_hill",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:large_hollow_hill": 1
+      }
+    },
+    {
+      "name": "twilightforest:lich_tower",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:lich_tower": 1
+      }
+    },
+    {
+      "name": "twilightforest:medium_hollow_hill",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:medium_hollow_hill": 1
+      }
+    },
+    {
+      "name": "twilightforest:mushroom_tower",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:mushroom_tower": 1
+      }
+    },
+    {
+      "name": "twilightforest:naga_courtyard",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:naga_courtyard": 1
+      }
+    },
+    {
+      "name": "twilightforest:quest_grove",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:quest_grove": 1
+      }
+    },
+    {
+      "name": "twilightforest:small_hollow_hill",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:small_hollow_hill": 1
+      }
+    },
+    {
+      "name": "twilightforest:troll_cave",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:troll_cave": 1
+      }
+    },
+    {
+      "name": "twilightforest:yeti_cave",
+      "is_disabled": false,
+      "salt": 0,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "twilightforest:yeti_cave": 1
+      }
+    }
+  ],
+  "structure_template_pools": [
+    {
+      "name": "aquamirae:outpost",
+      "element_weights": {}
+    },
+    {
+      "name": "aquamirae:shelter/main",
+      "element_weights": {}
+    },
+    {
+      "name": "aquamirae:shelter/tunnel_bottom",
+      "element_weights": {}
+    },
+    {
+      "name": "aquamirae:shelter/tunnel_top",
+      "element_weights": {}
+    },
+    {
+      "name": "aquamirae:ship",
+      "element_weights": {}
+    },
+    {
+      "name": "aquamirae:surface/arch",
+      "element_weights": {}
+    },
+    {
+      "name": "aquamirae:surface/spiral",
+      "element_weights": {}
+    },
+    {
+      "name": "arkane_domains:druid_hut",
+      "element_weights": {}
+    },
+    {
+      "name": "arkane_domains:shaman_hut",
+      "element_weights": {}
+    },
+    {
+      "name": "arkane_domains:temple",
+      "element_weights": {}
+    },
+    {
+      "name": "arkane_domains:warlock_toer",
+      "element_weights": {}
+    },
+    {
+      "name": "bakery:bakery/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "bakery:oat_field/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "beachparty:beach_hut",
+      "element_weights": {}
+    },
+    {
+      "name": "beachparty:excavated_treasure",
+      "element_weights": {}
+    },
+    {
+      "name": "beachparty:excavated_treasures",
+      "element_weights": {}
+    },
+    {
+      "name": "beachparty:log_pillar",
+      "element_weights": {}
+    },
+    {
+      "name": "beachparty:planks_pillar",
+      "element_weights": {}
+    },
+    {
+      "name": "beachparty:ritual_circle",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:kelp",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:kelp_micro",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:kelp_mini",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:kelp_small",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:lower_middle_chambers",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:maze_chamber_battle_rooms",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:mobs",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:outside_walkway_shrines",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:parthenons",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:side_lower_chambers",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:starts",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:top_domes",
+      "element_weights": {}
+    },
+    {
+      "name": "betteroceanmonuments:top_rings",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:abandoned_spire/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:abandoned_temple/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:abandoned_village/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/1",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/10",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/11",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/12",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/13",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/14",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/15",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/16",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/17",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/18",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/19",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/2",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/20",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/21",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/22",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/24",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/25",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/26",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/27",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/28",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/29",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/3",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/30",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/31",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/32",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/4",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/5",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/6",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/7",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/8",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/9",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/cindaria",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/clawdian",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/hippocamtus",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/octohost_sword",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/octohost_trident",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/scylla",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/mob/urchinkin",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:acropolis/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:amethyst_nest/mob/crab",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:amethyst_nest/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/a",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/d",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/e",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/mob/the_harbinger",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/mob/the_prowler",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/mob/the_watcher",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/q",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:ancient_factory/w",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_occupied_village/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_site/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_structure/mob/camel",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_structure/mob/chicken",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_structure/mob/kobolediator",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_structure/mob/koboleton",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:desert_structure/mob/wadjet",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_1",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_10",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_11",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_12",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_2",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_3",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_4",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_5",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_6",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_7",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_8",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/bottom_9",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_1",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_10",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_11",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_2",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_3",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_5",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_7",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mid_9",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mob/aptrgangr",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mob/draugr",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mob/elite_draugr",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/mob/royal_draugr",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/top_6",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/upper_6",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:frosted_prison/upper_7",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/eight",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/five",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/mob/ministrosity",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/mob/monstrosity",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/one",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/seven",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/six",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/three",
+      "element_weights": {}
+    },
+    {
+      "name": "cataclysm:soul_black_smith/two",
+      "element_weights": {}
+    },
+    {
+      "name": "eidolon:catacomb",
+      "element_weights": {}
+    },
+    {
+      "name": "eidolon:lab",
+      "element_weights": {}
+    },
+    {
+      "name": "eidolon:stray_tower/basement",
+      "element_weights": {}
+    },
+    {
+      "name": "eidolon:stray_tower/stray_tower",
+      "element_weights": {}
+    },
+    {
+      "name": "embers:small_ruin",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:black_assembly/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:blighted_shack/basement",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:blighted_shack/circle",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:blighted_shack/space",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:blighted_shack/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:buried_ritual/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/candle",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/down_false",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/down_first",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/down_true",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/end",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/end_room",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/entrance",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/false_hallway",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/false_random",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/false_room",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/first_hallway",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/first_room",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/hall_staircase",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/staircase",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/tomb",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/true_final_hallway",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/true_final_random",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/true_hallway",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/true_random",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:crypt/urn",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:dark_manor/basement",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:dark_manor/dark_manor",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:dark_manor/end",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:dark_manor/spawn",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/arena1",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/arena2",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/arena3",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/arena4",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/bridge1",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/bridge2",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/bridge3",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/bridge4",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/main_arena",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/melee",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/range",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/second",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/tower1",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/tower2",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/tower3",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/tower4",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/vault",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/vault_east",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/vault_main",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/vault_west",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:final_terminal/watchling",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:graveyard/basement",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:graveyard/loot",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:graveyard/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:graveyard/treasure",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mangrove_tower/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/cairn_necromancer",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/crusher",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/cryologer",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/haunted_armor",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/heresiarch",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/heretic",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/illusioner",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/maverick",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/obsidian_monolith",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/pillager",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/preacher",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/prisoner",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/ravager",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/reprobate",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/sorcerer_level_1",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/sorcerer_level_2",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/sorcerer_level_3",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/storm_caster",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/true_cairn_necromancer",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/vindicator",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:mobs/warlock",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:ominous_blacksmith/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:ominous_blacksmith/wall",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:ruined_monastery/connector",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:ruined_monastery/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:secluded_igloo/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:sorcerous_keep/sorcerous_keep",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_hallway_a",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_hallway_b",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_hallway_main",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_room_a",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_room_b",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_room_c",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/boss_room_d",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/first_burrow",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/first_hallway",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/first_hallway_a",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/first_hallway_b",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/room_a",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/room_b",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/room_c",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/room_d",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/second_hallway",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/second_hallway_a",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/second_hallway_b",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:spider_den/tree",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:wind_shrine/connector",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:wind_shrine/end",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:wind_shrine/entrance",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:wind_shrine/floor",
+      "element_weights": {}
+    },
+    {
+      "name": "goety:wind_shrine/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "herios_floral_expansion:bloom_ruins_1",
+      "element_weights": {}
+    },
+    {
+      "name": "herios_floral_expansion:bloom_ruins_2",
+      "element_weights": {}
+    },
+    {
+      "name": "herios_floral_expansion:bloom_ruins_3",
+      "element_weights": {}
+    },
+    {
+      "name": "herios_floral_expansion:titan_bloom",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:baba_yaga_hut/huts",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:baba_yaga_hut/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/dark_coven/house_entrances",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/dark_coven/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/dark_coven/stairs",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/dark_coven/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/dark_coven/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/dark_coven/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/nature_coven/house_entrances",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/nature_coven/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/nature_coven/stairs",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/nature_coven/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/nature_coven/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:coven/nature_coven/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:owl_post_office/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "hexerei:witch_hut/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "kismet:kismet_structure/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/city/entrance",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/city_center",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/city_center/walls",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/sculk",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/structures",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/walls",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:ancient_city/walls/no_corners",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/blocks/gold",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/bridge_pieces",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/connectors",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/legs",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/rampart_plates",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/ramparts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/starting_pieces",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/bridge/walls",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/connectors",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/large_stables/inner",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/large_stables/outer",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/mirrored_starting_pieces",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/posts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/rampart_plates",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/ramparts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/small_stables/inner",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/small_stables/outer",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/stairs",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/starting_pieces",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/wall_bases",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/hoglin_stable/walls",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/mobs/hoglin",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/mobs/piglin",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/mobs/piglin_melee",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/starts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/bases",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/bases/centers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/brains",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/connectors",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/corners/bottom",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/corners/edges",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/corners/middle",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/corners/top",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/entrances",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/extensions/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/extensions/large_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/extensions/small_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/ramparts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/roofs",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/stairs",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/walls",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/walls/bottom",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/walls/mid",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/walls/outer",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/treasure/walls/top",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/center_pieces",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/edge_wall_units",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/edges",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/fillers/stage_0",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/large_ramparts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/pathways",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/rampart_plates",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/ramparts",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/stages/rot/stage_1",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/stages/stage_0",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/stages/stage_1",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/stages/stage_2",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/stages/stage_3",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/wall_units",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:bastion/units/walls/wall_bases",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:empty",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:pillager_outpost/base_plates",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:pillager_outpost/feature_plates",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:pillager_outpost/features",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:pillager_outpost/towers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/buildings",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/buildings/grouped",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/roads",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/tower",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/tower/additions",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:trail_ruins/tower/tower_top",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/common/animals",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/common/butcher_animals",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/common/cats",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/common/iron_golem",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/common/sheep",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/common/well_bottoms",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/camel",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/zombie/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/zombie/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/zombie/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/zombie/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/desert/zombie/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/trees",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/zombie/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/zombie/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/zombie/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/plains/zombie/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/trees",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/zombie/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/zombie/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/zombie/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/zombie/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/savanna/zombie/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/trees",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/zombie/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/zombie/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/zombie/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/snowy/zombie/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/terminators",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/town_centers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/zombie/decor",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/zombie/houses",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/zombie/streets",
+      "element_weights": {}
+    },
+    {
+      "name": "minecraft:village/taiga/zombie/villagers",
+      "element_weights": {}
+    },
+    {
+      "name": "queen_bee:beehive/hole_under_beehive",
+      "element_weights": {}
+    },
+    {
+      "name": "queen_bee:beehive/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "ribbits:decor",
+      "element_weights": {}
+    },
+    {
+      "name": "ribbits:houses",
+      "element_weights": {}
+    },
+    {
+      "name": "ribbits:paths",
+      "element_weights": {}
+    },
+    {
+      "name": "ribbits:paths_fallback",
+      "element_weights": {}
+    },
+    {
+      "name": "ribbits:ribbits",
+      "element_weights": {}
+    },
+    {
+      "name": "ribbits:starts",
+      "element_weights": {}
+    },
+    {
+      "name": "snowyspirit:gingerbread_house/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "supplementaries:way_sign/feature_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "supplementaries:way_sign/start_pool",
+      "element_weights": {}
+    },
+    {
+      "name": "waystones:village/desert/waystones",
+      "element_weights": {}
+    },
+    {
+      "name": "waystones:village/plains/waystones",
+      "element_weights": {}
+    },
+    {
+      "name": "waystones:village/savanna/waystones",
+      "element_weights": {}
+    },
+    {
+      "name": "waystones:village/snowy/waystones",
+      "element_weights": {}
+    },
+    {
+      "name": "waystones:village/taiga/waystones",
+      "element_weights": {}
+    }
+  ]
+}
